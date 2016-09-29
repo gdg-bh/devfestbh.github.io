@@ -1,4 +1,25 @@
-<html><head><meta charset="UTF-8"><link rel="import" href="../hoverboard-app.html"></head><body><dom-module id="post-page">
+<html><head><link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button-light.html">
+<link rel="import" href="../../bower_components/paper-spinner/paper-spinner.html">
+
+<link rel="import" href="../../bower_components/marked-element/marked-element.html">
+
+<link rel="import" href="../../bower_components/neon-animation/neon-animation-runner-behavior.html">
+<link rel="import" href="../../bower_components/neon-animation/neon-shared-element-animatable-behavior.html">
+
+<link rel="import" href="../elements/footer-block.html">
+<link rel="import" href="../behaviors/localize-behavior.html">
+<link rel="import" href="../behaviors/page-behavior.html">
+<link rel="import" href="../behaviors/utils-behavior.html">
+<link rel="import" href="../behaviors/share-behavior.html">
+
+
+</head><body><dom-module id="post-page">
 
   <template>
 
@@ -135,7 +156,7 @@
         <div class="container latest-post-wrapper">
           <div class="latest-post">
             <template is="dom-if" if="{{_latestPosts.0}}">
-              <span class="latest-post-label">Next post</span>
+              <span class="latest-post-label">Post Seguinte</span>
               <a href$="/blog/posts/[[_latestPosts.0.id]]/" class="post" cascaded="">
                 <iron-image class="image" src="[[_latestPosts.0.image]]" style$="background-color: [[_latestPosts.0.primaryColor]];" sizing="cover" preload="" fade=""></iron-image>
                 <div class="title" style$="background-color: [[_latestPosts.0.secondaryColor]];">
@@ -146,7 +167,7 @@
           </div>
           <div class="latest-post">
             <template is="dom-if" if="[[_latestPosts.1]]">
-              <span class="latest-post-label">Previous post</span>
+              <span class="latest-post-label">Post Anterior</span>
               <a href$="/blog/posts/[[_latestPosts.1.id]]/" class="post" cascaded="">
                 <iron-image class="image" src="[[_latestPosts.1.image]]" style$="background-color: [[_latestPosts.1.primaryColor]];" sizing="cover" preload="" fade=""></iron-image>
                 <div class="title" style$="background-color: [[_latestPosts.1.secondaryColor]];">
