@@ -1,0 +1,13 @@
+[
+  {
+    "title": "mágico",
+    "logosClass": "magic",
+    "logos": [
+      {
+        "name": "Google",
+        "url": "https://www.google.com/",
+        "logoUrl": "../images/logos/google.svg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+<html><head><link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+
+<link rel="import" href="../styles/shared-styles.html">
+
+
+</head><body><dom-module id="ticket-element">
+
+  <template>
+
+    <style>
+      :host {
+        --ticket-color: #2a2b2b;
+        --background-color: var(--default-primary-color);
+
+        background: var(--ticket-color);
+        position: relative;
+        border-radius: 10px 10px 0 0;
+        user-select: none;
+      }
+
+      .inner {
+        @apply(--layout-horizontal);
+        @apply(--layout-center-justified);
+        position: relative;
+        color: #ffffff;
+        padding: 30px;
+        box-sizing: border-box;
+        width: 160px;
+      }
+
+      .main {
+        @apply(--layout-vertical);
+        @apply(--layout-center-center);
+      }
+
+      .bottom, .bottom a {
+        @apply(--layout-vertical);
+        @apply(--layout-center-center);
+        overflow: hidden;
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        transition: all 0.5s ease 0s;
+      }
+
+      .bottom.expired {
+        background: #c8c8c7;
+      }
+
+      .bottom.lote1 {
+        background: #f5d737;
+      }
+      .bottom.lote1:hover {
+        background: #f8e47c;
+      }
+
+      .bottom.lote2 {
+        background: #e4323f;
+      }
+      .bottom.lote2:hover {
+        background: #ee414e;
+      }
+
+      .bottom.lote3 {
+        background: #36983b;
+      }
+      .bottom.lote3:hover {
+        background: #49bb4f;
+      }
+
+      .bottom-content, .bottom-content a {
+        color: #2a2b2b;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .headline {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+
+      .headline .currency {
+        font-size: 16px;
+      }
+
+      iron-icon {
+        padding: 3px;
+        background: var(--ticket-color);
+        fill: var(--primary-text-color);
+      }
+
+      .dates {
+        font-size: 14px;
+        color: #8b8b8b;
+        font-weight: lighter;
+      }
+
+      .type {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+      }
+
+      .type.expired {
+        color: #8b8b8b;
+      }
+
+      .type.lote1 {
+        color: #eec828;
+      }
+
+      .type.lote2 {
+        color: #e4323f;
+      }
+
+      .type.lote3 {
+        color: #36983b;
+      }
+    </style>
+
+    <div class="inner">
+      <div class="main">
+        <div class$="type [[colors]]">[[type]]</div>
+        <div class="headline"><span class="currency">[[currency]]</span>[[price]]</div>
+        <div class="dates">[[selling]]</div>
+      </div>
+    </div>
+    <a href$="[[urlTicket]]" class$="bottom [[colors]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
+      <div class="bottom-content">
+        [[buyTicket]]
+      </div>
+    </a>
+  </template>
+
+  <script>!function(){"use strict";Polymer({is:"ticket-element",behaviors:[HOVERBOARD.LocalizeBehavior],ready:function(){HOVERBOARD.Elements.Tickets=this},_trackBuyClick:function(t){HOVERBOARD.Analytics.trackEvent("ticket","buy_click",t.currentTarget.href)},properties:{type:{type:String},price:{type:Number},currency:{type:String},selling:{type:String},buyTicket:{type:String},urlTicket:{type:String},colors:{type:String}}})}();</script>
+
+</dom-module>
+</body></html>

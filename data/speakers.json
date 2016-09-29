@@ -1,0 +1,272 @@
+{
+    "1": {
+        "id": 1,
+        "featured": true,
+        "name": "Loiane Groner",
+        "title": "Instructor",
+        "company": "Loiane Groner",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/loiane_groner.jpg",
+        "shortBio": "Possui 10+ anos de experiência em TI e ama compartilhar conhecimento! Já palestrou por vários eventos no Brasil e ministrou cursos nos Estados Unidos...",
+        "bio": "Possui 10+ anos de experiência em TI e ama compartilhar conhecimento! Já palestrou por vários eventos no Brasil e ministrou cursos nos Estados Unidos. Autora dos livros: Ext JS 4 First Look, Mastering Ext JS (primeira e segunda edição), Sencha Architect App Development e Learning JavaScript Data Structures and Algorithms (primeira e segunda edição), JavaScript Regular Expressions - todos publicados pela editora Packt e lançados mundialmente em inglês (com tradução dos livros para chinês e coreano). Espera poder lançar livros em Português em breve. Entusiasta Java, JavaScript e mobile híbrido (Phonegap/Ionic). Participa ativamente dessas comunidades.Escreve para o blog http://loiane.com e publica aulas e cursos em http://loiane.training.",
+        "tags": [
+            "Web",
+            "Ionic",
+            "Angular"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+          {
+              "icon": "website",
+              "name": "Website",
+              "link": "http://www.loiane.com/"
+          }
+        ]
+    },
+    "3": {
+        "id": 3,
+        "featured": true,
+        "name": "Felipe Nascimento",
+        "title": "Senior Web Developer",
+        "company": "Nasc",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/felipe_nascimento.jpg",
+        "shortBio": "Felipe trabalha com desenvolvimento Web há mais de 12 anos, palestrante, fundador da BrazilJS Conference...",
+        "bio": "Felipe trabalha com desenvolvimento Web há mais de 12 anos, palestrante, professor e fundador da BrazilJS Conference, entre outros eventos e também projetos Open Source, hoje, é também founder da Nasc.",
+        "tags": [
+            "Web",
+            "JS"
+        ],
+        "badges": [
+          {
+              "name": "GDE",
+              "description": "Web Technologies",
+              "link": "https://developers.google.com/experts/people/felipe-moura"
+          }
+
+        ],
+        "socials": [
+            {
+                "icon": "website",
+                "name": "Website",
+                "link": "http://felipenmoura.com/"
+            },
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/felipenmoura"
+            }
+        ]
+    },
+    "4": {
+        "id": 4,
+        "featured": true,
+        "name": "Daniela Andrade",
+        "title": "Analist Developer",
+        "company": "Thoughtworks",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/daniela_andrade.jpg",
+        "shortBio": "Daniela Andrade é uma mulher transexual, transfeminista, membro do GADVS - Grupo de Advogados pela Diversidade Sexual e de Gênero...",
+        "bio": "Daniela Andrade é uma mulher transexual, transfeminista, membro do GADVS - Grupo de Advogados pela Diversidade Sexual e de Gênero, atuando no movimento de mulheres, LGBT e travestis e transexuais. Formada em Letras e Análise de Sistemas com pós graduação em Língua Portuguesa e Literatura e Engenharia de Software.Atualmente é analista desenvolvedora na Thoughtworks.",
+        "tags": [
+            "WTM"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+
+        ]
+    },
+    "5": {
+        "id": 5,
+        "featured": true,
+        "name": "Luís Leão",
+        "title": "Course Manager",
+        "company": "Udacity",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/luis_leao.jpg",
+        "shortBio": "Course Manager na Udacity, co-organiza o Google Developer Group de São Paulo e atua em diversas áreas voltadas para empreendedorismo e inovação...",
+        "bio": "Course Manager na Udacity, co-organiza o Google Developer Group de São Paulo e atua em diversas áreas voltadas para empreendedorismo e inovação, entre eles é responsável por um grupo de estudo de Internet das Coisas (IoT) no RedBull Station e pelo programa Startup in School, projeto de formação empreendedora e programação para estudantes de escolas públicas.",
+        "tags": [
+            "IoT",
+            "Firebase"
+        ],
+        "badges": [
+          {
+              "name": "GDG",
+              "description": "Google Developers Group",
+              "link": "https://developers.google.com/groups/directory/"
+          }
+
+        ],
+        "socials": [
+          {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "http://www.linkedin.com/in/luisleao"
+          },
+          {
+              "icon": "twitter",
+              "name": "Twitter",
+              "link": "https://twitter.com/luisleao"
+          }
+        ]
+    },
+    "6": {
+        "id": 6,
+        "featured": false,
+        "name": "Maria Clara Santana",
+        "title": "Software Developer",
+        "company": "Fleety",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/maria_clara_santana.jpg",
+        "shortBio": "Maria Clara Santana é desenvolvedora de sotftware, apaixonada por educaçao...",
+        "bio": "Maria Clara Santana é desenvolvedora de sotftware, apaixonada por educaçao e entusiasta de machine learning, atualmente faz coisas no Fleety, maior plataforma de car sharing do hemisfério sul.",
+        "tags": [
+            "Machine Learning"
+        ],
+        "socials": [
+            {
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/olarclara"
+            }
+        ]
+    },
+    "7": {
+        "id": 7,
+        "featured": true,
+        "name": "Felipe Arimatéia",
+        "title": "Developer Mobile",
+        "company": "Ci&T",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/felipe_arimateia.png",
+        "shortBio": "Developer Mobile na CI&T e professor, já trabalhou em apps famosos como Buscapé, Rádio Skol, Oi FM...",
+        "bio": "Developer Mobile na CI&T e professor, já trabalhou em apps famosos como Buscapé, Rádio Skol, Oi FM, e mais alguns outros. É apaixonado por series, código e em ser pai, além de organizar o Android Meetup BH. ",
+        "tags": [
+            "Android",
+            "Firebase"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+
+        ]
+    },
+    "8": {
+        "id": 8,
+        "featured": false,
+        "name": "Ana Paula Batista",
+        "title": "Android Tech Lead",
+        "company": "App Prova",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/logos/gdg-bh.svg",
+        "shortBio": "A DEFINIR...",
+        "bio": "A DEFINIR...",
+        "tags": [
+            "Ux"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+
+        ]
+    },
+    "9": {
+        "id": 9,
+        "featured": false,
+        "name": "Bruno Scrok Brunoro",
+        "title": "Developer Mobile",
+        "company": "Banco Maré",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/bruno_scrok.jpg",
+        "shortBio": "Desenvolvedor de Aplicativos Mobile e Front-end, Desenvolvedor no Banco Maré, Organizador do Google Developer Group Curitiba...",
+        "bio": "Desenvolvedor de Aplicativos Mobile e Front-end, Desenvolvedor no Banco Maré, Organizador do Google Developer Group Curitiba, baixista e não guitarra de 4 cordas, gosta de comer, e nos tempos vagos anda de Jipe mais louco que o Batman por Colombo/PR.",
+        "tags": [
+            "Android Wear",
+            "Firebase"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+
+        ]
+    },
+    "10": {
+        "id": 10,
+        "featured": false,
+        "name": "Liliane",
+        "title": "Front-End Engineer",
+        "company": "SEBRAE",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/logos/gdg-bh.svg",
+        "shortBio": "A DEFINIR...",
+        "bio": "A DEFINIR...",
+        "tags": [
+            "Entrepreneurship"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+
+        ]
+    },
+    "11": {
+        "id": 11,
+        "featured": false,
+        "name": "Minas Dev",
+        "title": "Comunity Leader",
+        "company": "Apeser",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/minas_dev.png",
+        "shortBio": "Palestra das comunidades de BH, a definir...",
+        "bio": "Palestra das comunidades de BH, a definir...",
+        "tags": [
+            "Comunity"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+
+        ]
+    },
+    "17": {
+        "id": 17,
+        "featured": false,
+        "name": "Call 4 Paperz",
+        "title": "Call 4 Paperz",
+        "company": "Call 4 Paperz",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/logos/gdg-bh.svg",
+        "shortBio": "A DEFINIR...",
+        "bio": "A DEFINIR...",
+        "socials": [
+
+        ]
+    },
+    "22": {
+        "id": 22,
+        "featured": false,
+        "name": "Call 4 Paperz",
+        "title": "Call 4 Paperz",
+        "company": "Call 4 Paperz",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/logos/gdg-bh.svg",
+        "shortBio": "A DEFINIR...",
+        "bio": "A DEFINIR...",
+        "badges": [
+
+        ],
+        "socials": [
+
+        ]
+    }
+}

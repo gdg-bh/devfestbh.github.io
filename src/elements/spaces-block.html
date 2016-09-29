@@ -1,0 +1,109 @@
+<html><head><link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+
+<link rel="import" href="../styles/shared-styles.html">
+<link rel="import" href="../behaviors/utils-behavior.html">
+<link rel="import" href="../behaviors/localize-behavior.html">
+
+
+</head><body><dom-module id="spaces-block">
+
+  <template>
+
+    <style include="shared-styles">
+      :host {
+        display: block;
+        background: #fff;
+      }
+
+      .container {
+        padding-bottom: 30px;
+        text-align: center;
+      }
+
+      .space-wrapper {
+        @apply(--layout-horizontal);
+        @apply(--layout-wrap);
+        margin-top: 40px;
+      }
+
+      .space {
+        @apply(--layout-vertical);
+        @apply(--layout-center);
+        color: var(--primary-text-color);
+        width: 50%;
+      }
+
+      .photo {
+        @apply(--img-circle);
+        height: 70px;
+        width: 70px;
+      }
+
+      .title {
+        margin-top: 5px;
+        padding: 0 16px;
+        line-height: .9;
+      }
+
+      .description {
+        padding: 0 16px;
+        display: block;
+        font-size: .7em;
+        line-height: 1.8;
+      }
+
+      .block-link {
+        margin-top: 25px;
+        display: block;
+        color: inherit;
+        font-size: .9em;
+      }
+
+      .company-logo {
+        margin: 5px auto;
+        width: 80px;
+        height: 20px;
+      }
+
+      @media (max-width: 600px) {
+        .person:nth-child(1),
+        .person:nth-child(2) {
+          margin-bottom: 40px;
+        }
+      }
+
+      @media (min-width: 601px) {
+        .photo {
+          height: 120px;
+          width: 120px;
+        }
+
+        .person {
+          @apply(--layout-flex);
+        }
+      }
+    </style>
+
+    <div class="container">
+      <h4 class="heading">[[localize('spaces-title')]]</h4>
+      <div class="spaces-wrapper">
+        <template is="dom-repeat" items="[[spaces]]" as="space">
+          <iron-image class="photo" src="[[space.photoUrl]]" sizing="cover"></iron-image>
+          <h4 class="title">[[space.title]]</h4>
+          <span class="description">[[space.description]]</span>
+        </template>
+      </div>
+    </div>
+
+  </template>
+
+  <script>!function(){"use strict";Polymer({is:"spaces-block",behaviors:[HOVERBOARD.LocalizeBehavior],ready:function(){HOVERBOARD.Elements.Spaces=this}})}();</script>
+  
+
+</dom-module>
+</body></html>

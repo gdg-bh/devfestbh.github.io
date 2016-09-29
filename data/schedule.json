@@ -1,0 +1,103 @@
+[{
+    "date": "2016-11-05",
+    "dateReadable": "5 de Novembro",
+    "tracks": [{
+        "title": "Principal"
+    }, {
+        "title": "Comunidades"
+    }, {
+        "title": "Codelabs"
+    }],
+    "timeslots": [{
+        "startTime": "08:00",
+        "endTime": "08:50",
+        "sessions": [
+          [132]
+        ]
+    }, {
+        "startTime": "08:50",
+        "endTime": "09:00",
+        "sessions": [
+          [136]
+        ]
+    }, {
+        "startTime": "09:00",
+        "endTime": "09:45",
+        "sessions": [
+          [104],
+          [122]
+        ]
+    }, {
+        "startTime": "09:45",
+        "endTime": "10:30",
+        "sessions": [
+          [105]
+        ]
+    }, {
+        "startTime": "10:30",
+        "endTime": "11:15",
+        "sessions": [
+          [109],
+          [116]
+        ]
+    }, {
+        "startTime": "11:15",
+        "endTime": "12:00",
+        "sessions": [
+          [106],
+          [118]
+        ]
+    }, {
+        "startTime": "12:00",
+        "endTime": "14:00",
+        "sessions": [
+            [133]
+        ]
+    }, {
+        "startTime": "14:00",
+        "endTime": "14:45",
+        "sessions": [
+            [107],
+            [126]
+        ]
+    }, {
+        "startTime": "14:45",
+        "endTime": "15:30",
+        "sessions": [
+          [111],
+          [127]
+        ]
+    }, {
+        "startTime": "15:30",
+        "endTime": "16:15",
+        "sessions": [
+          [112],
+          [131]
+        ]
+    }, {
+        "startTime": "16:15",
+        "endTime": "17:00",
+        "sessions": [
+          [134]
+        ]
+    }, {
+        "startTime": "17:00",
+        "endTime": "17:45",
+        "sessions": [
+          [124],
+          [125]
+        ]
+    }, {
+        "startTime": "17:45",
+        "endTime": "18:30",
+        "sessions": [
+          [101]
+        ]
+    }, {
+        "startTime": "18:30",
+        "endTime": "19:00",
+        "sessions": [
+            [138]
+        ]
+    }]
+}]
