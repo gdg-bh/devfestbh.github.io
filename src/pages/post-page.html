@@ -156,7 +156,7 @@
         <div class="container latest-post-wrapper">
           <div class="latest-post">
             <template is="dom-if" if="{{_latestPosts.0}}">
-              <span class="latest-post-label">Post Seguinte</span>
+              <span class="latest-post-label">Next post</span>
               <a href$="/blog/posts/[[_latestPosts.0.id]]/" class="post" cascaded="">
                 <iron-image class="image" src="[[_latestPosts.0.image]]" style$="background-color: [[_latestPosts.0.primaryColor]];" sizing="cover" preload="" fade=""></iron-image>
                 <div class="title" style$="background-color: [[_latestPosts.0.secondaryColor]];">
@@ -167,7 +167,7 @@
           </div>
           <div class="latest-post">
             <template is="dom-if" if="[[_latestPosts.1]]">
-              <span class="latest-post-label">Post Anterior</span>
+              <span class="latest-post-label">Previous post</span>
               <a href$="/blog/posts/[[_latestPosts.1.id]]/" class="post" cascaded="">
                 <iron-image class="image" src="[[_latestPosts.1.image]]" style$="background-color: [[_latestPosts.1.primaryColor]];" sizing="cover" preload="" fade=""></iron-image>
                 <div class="title" style$="background-color: [[_latestPosts.1.secondaryColor]];">

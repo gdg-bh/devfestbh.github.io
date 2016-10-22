@@ -1,317 +1,166 @@
 {
-    "140": {
-        "id": 140,
-        "title": "TBD",
-        "description": "TBD",
-        "language": "English"
-    },
-    "139": {
-        "id": 139,
-        "title": "Keynote",
-        "description": "",
-        "language": "English"
-    },
     "138": {
         "id": 138,
         "title": "Encerramento Official",
         "description": "Encerramento Official",
-        "image": "/images/backgrounds/closing.jpg"
-    },
-    "137": {
-        "id": 137,
-        "title": "Afterparty & Networking",
-        "description": "Afterparty is a great time to have some fun and meet new people",
-        "image": "/images/backgrounds/party.jpg"
+        "image": "/images/backgrounds/closing.jpg",
+        "tags": [
+            "general"
+        ]
     },
     "136": {
         "id": 136,
-        "title": "Abertura DevFestBH ",
+        "title": "Abertura DevFestBH",
         "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
-        "language": "English",
-        "image": "/images/backgrounds/opening.jpg"
-    },
-    "135": {
-        "id": 135,
-        "title": "Morning coffee",
-        "description": "Coffeeeeeee!",
-        "image": "/images/backgrounds/morning.jpg"
+        "image": "/images/backgrounds/opening.jpg",
+        "tags": [
+            "general"
+        ]
     },
     "134": {
         "id": 134,
         "title": "Coffee break",
         "description": "Coffeeeeeee!",
-        "image": "/images/backgrounds/coffee-break.jpg"
+        "image": "/images/backgrounds/coffee-break.jpg",
+        "tags": [
+            "general"
+        ]
     },
     "133": {
         "id": 133,
         "title": "Almoço",
         "description": "Vaaamooos Cooomeeeer!",
-        "image": "/images/backgrounds/lunch.jpg"
+        "image": "/images/backgrounds/lunch.jpg",
+        "tags": [
+            "general"
+        ]
     },
     "132": {
         "id": 132,
         "title": "Credenciamento e coffee-break",
         "description": "Hora de se registrar e também aquecer os motores para a grande festa",
-        "image": "/images/backgrounds/registration.jpg"
+        "image": "/images/backgrounds/registration.jpg",
+        "tags": [
+            "general"
+        ]
     },
     "131": {
         "id": 131,
-        "title": "Call 4 Paperz",
-        "description": "A DEFINIR",
+        "title": "Anti-patterns & premature optimization",
+        "description": "Quem nunca pensou na performance daquele microservice antes mesmo de pensar em sua arquitetura, que atire a primeira pedra! Nessa palestra discutiremos os mals hábitos de se pensar em otimização de forma prematura, e descobriremos que software que aumentar receita > software que reduz custos.",
         "speakers": [
-            27
+            18
         ],
-        "language": "Portuguese",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
+            "Libraries"
         ]
     },
     "130": {
         "id": 130,
-        "title": "Designing an Android Wear Application",
-        "description": "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design a user experience for this type of devices.\nEvery platform has it's own design principles and approaches. But, in the core, they all need to follow same core rules. So, how we combine this core requirements with Google's Material Design and use them on an Android Wear device? Let's learn!",
-        "speakers": [
-            26
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "129": {
-        "id": 129,
-        "title": "Accessibility on Android",
-        "description": "Accessibility is a very important step to make sure that your app reaches everyone in an easy and fun way to use. \nGood accessibility support means much more than just making sure the app supports screen readers, different fonts sizes and good contrast ratios. It is a learning process, and one in which we ourselves still have much to learn and explore. ",
-        "speakers": [
-            26
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "128": {
-        "id": 128,
-        "title": "Android Wear 2.0: Great Changes Upcoming this Fall",
-        "description": "Google announced Android Wear 2.0 become available this Fall. This major update brings some revolutionary changes in platform, that should change our approaches in developing wearable apps, including freedom of BLE tethering, system support for complications and activity recognition by GoogleFit, developed mainly for Android Wear 2.0. We will talk deeper about these new features and look at some ways to implement them in the code.",
-        "speakers": [
-            25
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Android"
-        ]
-    },
-    "127": {
-        "id": 127,
-        "title": "Call 4 Paperz",
-        "description": "A DEFINIR",
-        "speakers": [
-            24
-        ],
-        "language": "Portuguese",
-        "complexity": "Beginner",
-        "tags": [
-            "Android"
-        ]
-    },
-    "126": {
-        "id": 126,
-        "title": "Call 4 Paperz",
-        "description": "A DEFINIR...",
-        "speakers": [
-            23
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "125": {
-        "id": 125,
         "title": "Call 4 Paperz",
         "description": "A DEFINIR",
         "speakers": [
             22
         ],
-        "language": "Portuguese",
-        "complexity": "Intermediate",
         "tags": [
-            "Cloud"
         ]
     },
-    "124": {
-        "id": 124,
-        "title": "Liliane - A DEFINIR",
+    "129": {
+        "id": 129,
+        "title": "Call 4 Paperz",
         "description": "A DEFINIR",
         "speakers": [
-            21
+            22
         ],
-        "language": "Portuguese",
-        "complexity": "Intermediate",
+        "tags": [
+        ]
+    },
+    "128": {
+        "id": 128,
+        "title": "CEO de startup!? Oi?",
+        "description": "Priscila Gama, mulher, negra, não entendedora (ainda) de programação, fala um pouco sobre como o fato de ser exatamente quem é, a levou a co-fundar a Malalai, startup de segurança pessoal feminina. Ela irá compartilhar o que aprendeu até aqui sobre esta recém descoberta.",
+        "speakers": [
+            17
+        ],
+        "tags": [
+            "Empreendedorismo"
+        ]
+    },
+    "127": {
+        "id": 127,
+        "title": "Metodologias ágeis",
+        "description": "Vamos falar um pouco sobre Metodologias Ágeis? Entender onde vivem, o que comem e como se reproduzem os times ágeis. No fim de tudo eu garanto que seremos conhecedores das manhas e dos paranauês das metodologias ágeis e saber como atuar em um time ágil sem passar vergonha!",
+        "speakers": [
+            16
+        ],
+        "tags": [
+            "Libraries"
+        ]
+    },
+    "126": {
+        "id": 126,
+        "title": "Metodologias CSS",
+        "description": "Já pegou códigos CSS imensos e com várias regras repetidas? Pois então, há maneiras de produzir seu CSS de maneira eficiente e eu falarei um pouco sobre as metodologias CSS e seus aliados para melhorar a performance no seu código CSS.",
+        "speakers": [
+            15
+        ],
+        "tags": [
+            "Libraries"
+        ]
+    },
+    "125": {
+        "id": 125,
+        "title": "Aplicações mobile escaláveis - Escolha a arquitetura certa para sua aplicação Android",
+        "description": "Nessa talk iremos discutir como construir grades aplicações Android de uma forma escalável e testável. Discutindo e comparando o padrão arquitetural nativo de aplicações android com novos padrões como MVP e MVVM.",
+        "speakers": [
+            14
+        ],
         "tags": [
             "Android"
-        ]
-    },
-    "123": {
-        "id": 123,
-        "title": "TBD",
-        "description": "TBD",
-        "speakers": [
-            20
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Web"
-        ]
-    },
-    "122": {
-        "id": 122,
-        "title": "Minas Dev - A DEFINIR",
-        "description": "A DEFINIR",
-        "speakers": [
-            19
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "121": {
-        "id": 121,
-        "title": "Offline-first progressive web apps",
-        "description": "Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the internet connection.",
-        "speakers": [
-            18
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Web"
-        ]
-    },
-    "120": {
-        "id": 120,
-        "title": "Progressive web apps - prepare your web for 2017",
-        "description": "\"Remember back when AJAX completely changed what was possible in the desktop web? Progressive web apps are that same fundamental shift for the mobile web.\" said Rahul Row-Chowdhury (Google\u2019s product lead for chrome and the web platform) on stage at Google I/O 2016. - Progressive web apps use service workers, app shell, push notifications, RAIL and other capabilities to deliver an app-like user experience.",
-        "speakers": [
-            18
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Web"
         ]
     },
     "119": {
         "id": 119,
-        "title": "Hands-on with UI testing for Android developers",
-        "description": "Writing Android apps is usually fun because you are actually building something. But what about writing tests? Boring stuff. Errr, UI tests? I am a developer!\n\nIn this talk we will take a look at options for UI tests on Android, why you should write them and how they help you with your app development workflow. No more untested apps!",
+        "title": "Remote Work: Less Stress, More Productivity",
+        "description": "Nesta palestra é apresentado o modelo de trabalho remoto e os modos que o mesmo é geralmente aplicado pelas empresas e também coloca em evidência riscos, preocupações, benefícios e responsabilidades que o profissional deve dar importância ao aderir este tipo de relacionamento com o empregador.",
         "speakers": [
-            17
+            13
         ],
-        "language": "English",
-        "complexity": "Beginner",
         "tags": [
-            "Android"
+            "Empreendedorismo"
         ]
     },
     "118": {
         "id": 118,
-        "title": "Call 4 Paperz",
-        "description": "A DEFINIR",
+        "title": "Nativo x Híbrido - Tira sua própria conclusão",
+        "description": "Atualmente existe várias formas de se construir um projeto mobile e a decisão mais importante é qual começar. Quais são? Quais vantagens e desvantagens de cada escolha? Como você define qual utilizar?  Uma comparação entre Híbrido/Nativo e quais os principais pontos você tem que considerar para poder fazer essa escolha.",
         "speakers": [
-            16
+          12
         ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
-        ]
-    },
-    "117": {
-        "id": 117,
-        "title": "Building data pipelines: from simple to more advanced - hands-on experience",
-        "description": "Data is becoming one of the main decision-makers in an organisation. The more data we have the more challenges we face every day. Every decision we make will have long-term implications. In the talk we will go through different approaches to the data pipelines: from a simple in-house built, with comparison to open source solutions based on Apache stack(Apache Kafka, Apache Samza, Spark) and finally hosted auto-scaling solutions based Amazon(S3, Kinesis, Lambda, EMR) or Google(Pub/Sub, Dataflow, BigQuery). The talk covers the main aspects of data collecting processes altogether with further implications for data processing, highlighting appropriate solutions and architectures for the particular use-cases. ",
-        "speakers": [
-            15
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Cloud"
-        ]
-    },
-    "116": {
-        "id": 116,
-        "title": "Call 4 Paperz",
-        "description": "A DEFINIR",
-        "speakers": [
-            14
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Web"
-        ]
-    },
-    "115": {
-        "id": 115,
-        "title": "Android tool-chain and run-time improvements in N",
-        "description": "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
-        "speakers": [
-            13
-        ],
-        "language": "English",
-        "complexity": "Beginner",
-        "tags": [
-            "Android"
-        ]
-    },
-    "114": {
-        "id": 114,
-        "title": "I\u2019ve been doing some syncing\u2026",
-        "description": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful\u2014and underrated\u2014account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
-        "speakers": [
-            12
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
             "Android"
         ]
     },
     "113": {
         "id": 113,
-        "title": "Microservices in Google App Engine",
-        "description": "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
+        "title": "Hotmart - A DEFINIR",
+        "description": "A DEFINIR",
         "speakers": [
-            11
+            22
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Cloud"
+            "Empreendedorismo"
         ]
     },
     "112": {
         "id": 112,
-        "title": "Ana Paula Batista - A DEFINIR",
-        "description": "A DEFINIR.",
+        "title": "Liliane - A DEFINIR",
+        "description": "A DEFINIR",
         "speakers": [
-            10
+            9
         ],
-        "language": "Portuguese",
-        "complexity": "Intermediate",
         "tags": [
-            "Web"
+            "Empreendedorismo"
         ]
     },
     "111": {
@@ -319,25 +168,22 @@
         "title": "Desenvolvendo para Android Wear usando Firebase",
         "description": "A DEFINIR...",
         "speakers": [
-            9
+            8
         ],
-        "language": "Portuguese",
-        "complexity": "beginning",
         "tags": [
-            "Android Wear"
+            "Android Wear",
+            "Firebase"
         ]
     },
     "110": {
         "id": 110,
-        "title": "The ultimate guide to MVP pattern on Android",
-        "description": "There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they tied Presenters' and Views' lifecycles and what they did to make it all testable. If you'd love to make your Fragments' and Activities' code simpler and increase your coverage, but you're confused how to glue it all together - don't miss Mateusz's talk.",
+        "title": "Pesquisa de Guerrilha: Entendendo seu usuário com agilidade e baixo custo.",
+        "description": "Pesquisa te dá direção ao invés de adivinhação, e dados ao invés de opinião ou especulação. E você sabia que pode ser mais rápido e barato do que o que você imagina? Vamos abordar algumas estratégias e cases para pesquisas com baixo custo, as Pesquisas de Guerrilha.",
         "speakers": [
-            8
+            2
         ],
-        "language": "English",
-        "complexity": "Intermediate",
         "tags": [
-            "Android"
+            "UX"
         ]
     },
     "109": {
@@ -347,8 +193,6 @@
         "speakers": [
             7
         ],
-        "language": "Portuguese",
-        "complexity": "Beginner",
         "tags": [
             "Android",
             "Firebase"
@@ -356,15 +200,15 @@
     },
     "108": {
         "id": 108,
-        "title": "New Data Architecture in Angular 2",
-        "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Angular 2 followed by RxJS 5 and the new HTTP API covering some basic use cases.",
+        "title": "Comunidades: porque participar?",
+        "description": "Vamos bater um papo sobre o MinasDev e como comunidades de desenvolvedores impactam o cenário de TI em Belo Horizonte.",
         "speakers": [
-            6
+            10,
+            11
         ],
-        "language": "English",
-        "complexity": "Intermediate",
+        "language": "Portuguese",
         "tags": [
-            "Web"
+            "Comunidade"
         ]
     },
     "107": {
@@ -374,8 +218,6 @@
         "speakers": [
             6
         ],
-        "language": "Portuguese",
-        "complexity": "Beginner",
         "tags": [
             "Machine Learning"
         ]
@@ -387,8 +229,6 @@
         "speakers": [
             5
         ],
-        "language": "English",
-        "complexity": "Portuguese",
         "tags": [
             "Iot",
             "Firebase"
@@ -401,10 +241,9 @@
         "speakers": [
             4
         ],
-        "language": "Portuguese",
-        "complexity": "Beginner",
         "tags": [
-            "WTM"
+            "WTM",
+            "Comunidade"
         ]
     },
     "104": {
@@ -414,25 +253,10 @@
         "speakers": [
             3
         ],
-        "language": "Portuguese",
-        "complexity": "Beginner",
         "tags": [
             "Web",
-            "PWAs",
+            "Progressive Web Apps",
             "JS"
-        ]
-    },
-    "103": {
-        "id": 103,
-        "title": "Knock knock! Who's there? Doze.",
-        "description": "Doze mode is just around the corner. \nIntroduced in Marshmallow, as the shy guy that was allowed to step in only when your device went to sleep. ZzzZzzzz\nWith the new N release, Doze mode becomes the rockstar. He rushes into the room with a big shabang by shooting all background services and network requests that forgot to get away. \nHe should no longer be shy. He just shoots and dances on bones of your scheduled alarms, while you wonder why this particular task is no longer running.\nWith the new Doze mode, you require to adapt your app architecture to the new reality.\nOn this talk, we will learn how to survive Doze mode using Job Scheduler, Content Provider and stay in one piece.",
-        "speakers": [
-            2
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
         ]
     },
     "101": {
@@ -442,10 +266,9 @@
         "speakers": [
             1
         ],
-        "language": "Portuguese",
-        "complexity": "Beginner",
         "tags": [
-            "Ionic 2"
+            "Ionic",
+            "Angular JS"
         ]
     }
 }

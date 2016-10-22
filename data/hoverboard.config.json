@@ -145,13 +145,6 @@
         "currency": "R$",
         "selling": "lote-2-selling",
         "colors": "lote2"
-      },
-      {
-        "name": "lote-3",
-        "price": 130,
-        "currency": "R$",
-        "selling": "lote-3-selling",
-        "colors": "lote3"
       }
     ]
   },

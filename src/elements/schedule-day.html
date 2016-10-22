@@ -183,9 +183,6 @@
                       <div class="sub-session-content" flex="">
                         <h2 class="session-title">[[subSession.title]]</h2>
                         <ul class="session-meta">
-                          <template is="dom-if" if="[[subSession.language]]">
-                            <li>[[subSession.language]]</li>
-                          </template>
                           <template is="dom-if" if="[[subSession.complexity]]">
                             <li>[[subSession.complexity]]</li>
                           </template>
@@ -211,7 +208,7 @@
                               <div class="person-detail" flex="">
                                 <span class="speaker-name">[[speaker.name]]</span>
                                 <div class="speaker-title">
-                                  [[speaker.company]] / [[speaker.country]]
+                                  [[speaker.company]]
                                 </div>
                               </div>
                             </div>

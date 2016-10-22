@@ -12,7 +12,7 @@
         "tags": [
             "Web",
             "Ionic",
-            "Angular"
+            "Angular JS"
         ],
         "badges": [
 
@@ -23,6 +23,30 @@
               "name": "Website",
               "link": "http://www.loiane.com/"
           }
+        ]
+    },
+    "2": {
+        "id": 2,
+        "featured": true,
+        "name": "Ana Paula Batista",
+        "title": "Android Tech Lead",
+        "company": "App Prova",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/ana_paula_batista.jpg",
+        "shortBio": "UX designer com dezesseis anos de experiência em projetos para diferentes segmentos...",
+        "bio": "UX designer com dezesseis anos de experiência em projetos para diferentes segmentos. É especializada em estratégia de experiência do usuário, com foco na conversão em baixas custos em ambientes ágeis. Atualmente, Google Expert em UX / UI, Head de Produto no AppProva, Certified Design Sprint Master e local leader do IxDA-BH. Mora em Belo Horizonte, Brasil. Atua também mentora de startups e palestrante sobre temas como UX design e métodos de pesquisa do usuário.",
+        "tags": [
+            "UX"
+        ],
+        "badges": [
+          {
+            "name": "GDE",
+            "description": "UX/UI Expert",
+            "link": "https://developers.google.com/experts/people/ana-paula-batista"
+          }
+        ],
+        "socials": [
+
         ]
     },
     "3": {
@@ -71,7 +95,8 @@
         "shortBio": "Daniela Andrade é uma mulher transexual, transfeminista, membro do GADVS - Grupo de Advogados pela Diversidade Sexual e de Gênero...",
         "bio": "Daniela Andrade é uma mulher transexual, transfeminista, membro do GADVS - Grupo de Advogados pela Diversidade Sexual e de Gênero, atuando no movimento de mulheres, LGBT e travestis e transexuais. Formada em Letras e Análise de Sistemas com pós graduação em Língua Portuguesa e Literatura e Engenharia de Software.Atualmente é analista desenvolvedora na Thoughtworks.",
         "tags": [
-            "WTM"
+            "WTM",
+            "Comunidade"
         ],
         "badges": [
 
@@ -117,7 +142,7 @@
     },
     "6": {
         "id": 6,
-        "featured": false,
+        "featured": true,
         "name": "Maria Clara Santana",
         "title": "Software Developer",
         "company": "Fleety",
@@ -159,27 +184,7 @@
     },
     "8": {
         "id": 8,
-        "featured": false,
-        "name": "Ana Paula Batista",
-        "title": "Android Tech Lead",
-        "company": "App Prova",
-        "companyLogo": "/images/logos/gdg-bh.svg",
-        "photoUrl": "/images/logos/gdg-bh.svg",
-        "shortBio": "A DEFINIR...",
-        "bio": "A DEFINIR...",
-        "tags": [
-            "Ux"
-        ],
-        "badges": [
-
-        ],
-        "socials": [
-
-        ]
-    },
-    "9": {
-        "id": 9,
-        "featured": false,
+        "featured": true,
         "name": "Bruno Scrok Brunoro",
         "title": "Developer Mobile",
         "company": "Banco Maré",
@@ -198,8 +203,8 @@
 
         ]
     },
-    "10": {
-        "id": 10,
+    "9": {
+        "id": 9,
         "featured": false,
         "name": "Liliane",
         "title": "Front-End Engineer",
@@ -209,7 +214,27 @@
         "shortBio": "A DEFINIR...",
         "bio": "A DEFINIR...",
         "tags": [
-            "Entrepreneurship"
+            "Empreendedorismo"
+        ],
+        "badges": [
+
+        ],
+        "socials": [
+
+        ]
+    },
+    "10": {
+        "id": 10,
+        "featured": true,
+        "name": "Pedro Chaves",
+        "title": "Developer",
+        "company": "Méliuz",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/pedro_chaves.jpg",
+        "shortBio": "Desenvolvedor de software há quase 10 anos, envolvido com comunidades de software a pelo menos metade desse tempo...",
+        "bio": "Desenvolvedor de software há quase 10 anos, envolvido com comunidades de software a pelo menos metade desse tempo, hoje trabalha no Méliuz como desenvolvedor backend. É um dos organizadores do PHP MG há 2 anos, já palestrou em vários eventos e faculdades de Belo Horizonte e viu o MinasDev nascer até entrar para a organização do grupo. Seu objetivo é fazer com que comunidades ajudem o maior número de pessoas que ele conseguir :)",
+        "tags": [
+            "Comunidade"
         ],
         "badges": [
 
@@ -220,16 +245,16 @@
     },
     "11": {
         "id": 11,
-        "featured": false,
-        "name": "Minas Dev",
-        "title": "Comunity Leader",
-        "company": "Apeser",
+        "featured": true,
+        "name": "Paula Faria",
+        "title": "Front-end Developer",
+        "company": "RebelMouse",
         "companyLogo": "/images/logos/gdg-bh.svg",
-        "photoUrl": "/images/people/minas_dev.png",
-        "shortBio": "Palestra das comunidades de BH, a definir...",
-        "bio": "Palestra das comunidades de BH, a definir...",
+        "photoUrl": "/images/people/paula_faria.jpg",
+        "shortBio": "É co-criadora do MinasDev, organizadora do Dev in Company, DevBeers e Behance Portfolio Reviews....",
+        "bio": "Front-end developer com mais de 5 anos de experiência, formada em Produção Multimídia e Design de Interação, apaixonada por design e tecnologia. É co-criadora do MinasDev, organizadora do Dev in Company, DevBeers e Behance Portfolio Reviews. Acredita que conhecimento só vale a pena se for compartilhado.",
         "tags": [
-            "Comunity"
+            "Comunidade"
         ],
         "badges": [
 
@@ -238,18 +263,202 @@
 
         ]
     },
+    "12": {
+        "id": 12,
+        "featured": false,
+        "name": "Rodrigo Gomes Dias",
+        "title": "Desenvolvedor iOS",
+        "company": "Call 4 Paperz",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/rodrigo_dias.jpg",
+        "shortBio": "Atualmente desenvolvedor iOS na CI&T, atuando também no MinasDev...",
+        "bio": "Atualmente desenvolvedor iOS na CI&T, atuando também no MinasDev organizando eventos como o DevInCompany e DevBeers. Trabalha a cerca de 10 anos com programação.",
+        "tags": [
+            "Android"
+        ],
+        "socials": [
+          {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://br.linkedin.com/in/rodrigodiasus"
+          },
+          {
+              "icon": "twitter",
+              "name": "Twitter",
+              "link": "https://twitter.com/rodrigodias_us"
+          },
+          {
+              "icon": "facebook",
+              "name": "Facebook",
+              "link": "https://www.facebook.com/rodrigo.dias.us"
+          }
+        ]
+    },
+    "13": {
+        "id": 13,
+        "featured": false,
+        "name": "Beto Muniz",
+        "title": "Software Engineer",
+        "company": "Toptal",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/beto_muniz.png",
+        "shortBio": "Software Engineer na Toptal, Beto Muniz é um apaixonado por tecnologia e comunidade...",
+        "bio": "Software Engineer na Toptal, Beto Muniz é um apaixonado por tecnologia e comunidade que vive antenado no que está acontecendo no mundo web e disposto a contribuir através de posts, eventos, palestras e projetos open-source.",
+        "tags": [
+            "Empreendedorismo"
+        ],
+        "socials": [
+          {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "http://www.linkedin.com/in/obetomuniz"
+          },
+          {
+              "icon": "twitter",
+              "name": "Twitter",
+              "link": "https://twitter.com/obetomuniz"
+          },
+          {
+              "icon": "github",
+              "name": "GitHub",
+              "link": "https://github.com/obetomuniz"
+          },
+          {
+              "icon": "website",
+              "name": "Website",
+              "link": "http://betomuniz.com/"
+          }
+        ]
+    },
+    "14": {
+        "id": 14,
+        "featured": false,
+        "name": "Clêrton Leal",
+        "title": "Senior Software Engineer",
+        "company": "Avenue Code",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/clerton_leal.jpeg",
+        "shortBio": "Trabalhando a mais de 5 anos com desenvolvimento de software com aplicações Android...",
+        "bio": "Nascido e criado na cidade de Fortaleza/CE, e morando em Belo Horizonte a pouco mais de 6 meses. Trabalhando a mais de 5 anos com desenvolvimento de software com aplicações Android, Java e Scala. Apaixonado por novas tecnologias e bons jogos.",
+        "tags": [
+            "Android"
+        ],
+        "socials": [
+          {
+              "icon": "facebook",
+              "name": "Facebook",
+              "link": "https://www.facebook.com/clertonleal"
+          }
+        ]
+    },
+    "15": {
+        "id": 15,
+        "featured": false,
+        "name": "Lucas Andrey",
+        "title": "Founder & CTO",
+        "company": "Vulpi",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/lucas_andrey.jpg",
+        "shortBio": "Trabalho há 3 anos na área, me interesso principalmente por desenvolvimento de software e data analytics...",
+        "bio": "Trabalho há 3 anos na área, me interesso principalmente por desenvolvimento de software e data analytics. Utilizo tecnologias Java para web, REST APIs e tecnologias para criação de SPAs. Nas horas vagas costumo ler sobre gestão de projetos de software, descobrir projetos open source e conversar sobre a vida, o universo e tudo mais.",
+        "tags": [
+            "Libraries"
+        ],
+        "socials": [
+          {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://br.linkedin.com/in/andreybleme"
+          },
+          {
+              "icon": "twitter",
+              "name": "Twitter",
+              "link": "https://twitter.com/andreybleme"
+          },
+          {
+              "icon": "github",
+              "name": "GitHub",
+              "link": "https://github.com/andreybleme"
+          },
+          {
+              "icon": "facebook",
+              "name": "Facebook",
+              "link": "https://www.facebook.com/lucas.andrey.54"
+          }
+        ]
+    },
+    "16": {
+        "id": 16,
+        "featured": false,
+        "name": "Serena Fernandes",
+        "title": "Cetified Scrum Master & Developer",
+        "company": "Avenue Code",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/serena_fernandes.jpg",
+        "shortBio": "Formada em Análise e Desenvolvimento de Sistemas pela Faculdade Cotemig, recebe dinheiro para escrever código e dar boas sugestões há 4 anos...",
+        "bio": "Formada em Análise e Desenvolvimento de Sistemas pela Faculdade Cotemig, recebe dinheiro para escrever código e dar boas sugestões há 4 anos, sem nenhuma vergonha por isso. Versada em diversas linguagens e plataformas, vê o desenvolvimento de software como um super poder capaz de transformar idéias em realidade. Conhecedora das manhas e dos paranauês, consegue evitar a maioria das ciladas conhecidas antes de cair nos buracos. Atualmente Desenvolvedora e Scrum Master na Avenue Code, dedica seu tempo e habilidades especiais para o bem da humanidade enquanto faz experimentos culinários de qualidade duvidosa nos fins de semana.",
+        "tags": [
+            "Libraries"
+        ],
+        "socials": [
+
+        ]
+    },
     "17": {
         "id": 17,
         "featured": false,
-        "name": "Call 4 Paperz",
-        "title": "Call 4 Paperz",
-        "company": "Call 4 Paperz",
+        "name": "Lucas da Silva Trindade",
+        "title": "Front-end Developer",
+        "company": "Universidade Unigranrio",
         "companyLogo": "/images/logos/gdg-bh.svg",
-        "photoUrl": "/images/logos/gdg-bh.svg",
-        "shortBio": "A DEFINIR...",
-        "bio": "A DEFINIR...",
+        "photoUrl": "/images/people/lucas_trindade.jpeg",
+        "shortBio": "Front-end developer, trabalhando na área há 1 ano e 6 meses na Universidade Unigranrio...",
+        "bio": "Front-end developer, trabalhando na área há 1 ano e 6 meses na Universidade Unigranrio (1 ano como estagiário e o restante do tempo como efetivado), utilizando HTML, CSS e juntamente Sass e Gulp. Apesar de ser front end, faço projetos back end com PHP e Python e eu tento nas horas vagas manter as séries em dia.",
+        "tags": [
+            "Libraries"
+        ],
         "socials": [
-
+          {
+              "icon": "google+",
+              "name": "Google+",
+              "link": "https://plus.google.com/+LucasSTrindade"
+          },
+          {
+              "icon": "twitter",
+              "name": "Twitter",
+              "link": "https://twitter.com/lucasktrindade"
+          },
+          {
+              "icon": "github",
+              "name": "GitHub",
+              "link": "https://github.com/Lucasktrindade/"
+          }
+        ]
+    },
+    "18": {
+        "id": 18,
+        "featured": false,
+        "name": "Priscila Gama",
+        "title": "Fundadora",
+        "company": "Malalai",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/priscila_gama.jpg",
+        "shortBio": "Sou formada em arquitetura e urbanismo e atuo na área como autônoma (hoje quando dá) desde que me formei, em 2008...",
+        "bio": "Sou formada em arquitetura e urbanismo e atuo na área como autônoma (hoje quando dá) desde que me formei, em 2008. Fiz um MBA em gestão de negócios imobiliários na certeza de irei empreender em arquitetura, porque amo a profissão e não me conformo com a maneira como os edifícios residenciais são feitos hoje no Brasil. Também sou funcionária pública no Conselho de Arquitetura e Urbanismo, por enquanto. Gosto de gente e do poder transformador que são capazes de exercer. Alegria me emociona mais que tristeza... Normalmente não choro quando algo dá errado, mas águas rolam quando algo dá muito certo. Horas vagas é algo que tem sido raro, mas onde um grupo de bons amigos ou companhias estiver, estarei. Embora goste muito, não entendo muito de tecnologia e tenho medo de inteligência artificial. Muito do que sei hoje se deve a Malalai que nasceu em dezembro de 2015. ",
+        "tags": [
+            "Empreendedorismo"
+        ],
+        "socials": [
+          {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://br.linkedin.com/in/priscila-gama-89326451"
+          },
+          {
+              "icon": "facebook",
+              "name": "Facebook",
+              "link": "https://www.facebook.com/priscilaj.gama"
+          }
         ]
     },
     "22": {
@@ -261,12 +470,6 @@
         "companyLogo": "/images/logos/gdg-bh.svg",
         "photoUrl": "/images/logos/gdg-bh.svg",
         "shortBio": "A DEFINIR...",
-        "bio": "A DEFINIR...",
-        "badges": [
-
-        ],
-        "socials": [
-
-        ]
+        "bio": "A DEFINIR..."
     }
 }

@@ -5,8 +5,6 @@
         "title": "Principal"
     }, {
         "title": "Comunidades"
-    }, {
-        "title": "Codelabs"
     }],
     "timeslots": [{
         "startTime": "08:00",
@@ -22,33 +20,40 @@
         ]
     }, {
         "startTime": "09:00",
-        "endTime": "09:45",
+        "endTime": "09:30",
         "sessions": [
-          [104],
-          [122]
+          [108]
         ]
     }, {
-        "startTime": "09:45",
-        "endTime": "10:30",
+        "startTime": "09:30",
+        "endTime": "10:15",
         "sessions": [
-          [105]
-        ]
-    }, {
-        "startTime": "10:30",
-        "endTime": "11:15",
-        "sessions": [
-          [109],
-          [116]
-        ]
-    }, {
-        "startTime": "11:15",
-        "endTime": "12:00",
-        "sessions": [
-          [106],
+          [110],
           [118]
         ]
     }, {
-        "startTime": "12:00",
+        "startTime": "10:15",
+        "endTime": "11:00",
+        "sessions": [
+          [109],
+          [119]
+        ]
+    }, {
+        "startTime": "11:00",
+        "endTime": "11:45",
+        "sessions": [
+          [112],
+          [125]
+        ]
+    }, {
+        "startTime": "11:45",
+        "endTime": "12:30",
+        "sessions": [
+          [106],
+          [131]
+        ]
+    }, {
+        "startTime": "12:30",
         "endTime": "14:00",
         "sessions": [
             [133]
@@ -57,22 +62,22 @@
         "startTime": "14:00",
         "endTime": "14:45",
         "sessions": [
-            [107],
-            [126]
+            [113],
+            [127]
         ]
     }, {
         "startTime": "14:45",
         "endTime": "15:30",
         "sessions": [
-          [111],
-          [127]
+          [105],
+          [126]
         ]
     }, {
         "startTime": "15:30",
         "endTime": "16:15",
         "sessions": [
-          [112],
-          [131]
+          [111],
+          [128]
         ]
     }, {
         "startTime": "16:15",
@@ -84,18 +89,25 @@
         "startTime": "17:00",
         "endTime": "17:45",
         "sessions": [
-          [124],
-          [125]
+          [107],
+          [129]
         ]
     }, {
         "startTime": "17:45",
         "endTime": "18:30",
         "sessions": [
-          [101]
+          [104],
+          [130]
         ]
     }, {
         "startTime": "18:30",
-        "endTime": "19:00",
+        "endTime": "19:15",
+        "sessions": [
+          [101]
+        ]
+    }, {
+        "startTime": "19:15",
+        "endTime": "20:00",
         "sessions": [
             [138]
         ]
