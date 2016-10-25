@@ -206,13 +206,13 @@
     "9": {
         "id": 9,
         "featured": false,
-        "name": "Liliane",
-        "title": "Front-End Engineer",
+        "name": "Liliane Alves de Carvalho",
+        "title": "Innovation Analyst",
         "company": "SEBRAE",
         "companyLogo": "/images/logos/gdg-bh.svg",
-        "photoUrl": "/images/logos/gdg-bh.svg",
-        "shortBio": "A DEFINIR...",
-        "bio": "A DEFINIR...",
+        "photoUrl": "/images/people/liliane_alves.jpg",
+        "shortBio": "Inspirada pela cultura do empreendedorismo e o mindset Startup, possui experiência na coordenação de projetos, desenvolvimento de estudos...",
+        "bio": "Inspirada pela cultura do empreendedorismo e o mindset Startup, possui experiência na coordenação de projetos, desenvolvimento de estudos, metodologias e ferramentas de inovação para micro e pequenas empresas. Possui formação na área de turismo, administração e gestão de projetos no Brasil e aspectos culturais em negócios na Alemanha, possui uma visão multidisciplinar aplicada em negócios, tecnologia, inovação e análise de tendências. Coordenou por dois anos o projeto Identidade Startup Sebrae Minas e atualmente trabalha como Analista de Inovação e coordenadora da Agitadora de Negócios, no Sistema de Formação Gerencial do Sebrae Minas e é professora universitária nos cursos de pós-graduação da UNA-BH.",
         "tags": [
             "Empreendedorismo"
         ],
@@ -248,7 +248,7 @@
         "featured": true,
         "name": "Paula Faria",
         "title": "Front-end Developer",
-        "company": "RebelMouse",
+        "company": "Toro Investimentos",
         "companyLogo": "/images/logos/gdg-bh.svg",
         "photoUrl": "/images/people/paula_faria.jpg",
         "shortBio": "É co-criadora do MinasDev, organizadora do Dev in Company, DevBeers e Behance Portfolio Reviews....",
@@ -460,16 +460,5 @@
               "link": "https://www.facebook.com/priscilaj.gama"
           }
         ]
-    },
-    "22": {
-        "id": 22,
-        "featured": false,
-        "name": "Call 4 Paperz",
-        "title": "Call 4 Paperz",
-        "company": "Call 4 Paperz",
-        "companyLogo": "/images/logos/gdg-bh.svg",
-        "photoUrl": "/images/logos/gdg-bh.svg",
-        "shortBio": "A DEFINIR...",
-        "bio": "A DEFINIR..."
     }
 }
