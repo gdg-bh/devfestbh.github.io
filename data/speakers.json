@@ -460,5 +460,30 @@
               "link": "https://www.facebook.com/priscilaj.gama"
           }
         ]
+    },
+    "19": {
+        "id": 19,
+        "featured": false,
+        "name": "Marco Aurélio",
+        "company": "Hotmart",
+        "companyLogo": "/images/logos/gdg-bh.svg",
+        "photoUrl": "/images/people/marco_aurelio.jpg",
+        "shortBio": "Formado em Ciência da Computação, sou apaixonado por programação. Trabalho com desenvolvimento de sistemas há 12 anos...",
+        "bio": "Formado em Ciência da Computação, sou apaixonado por programação. Trabalho com desenvolvimento de sistemas há 12 anos, mais especificamente, na plataforma JEE, sobrevivente dos primórdios do Java. Tive experiências com desenvolvimento web em ASP, PHP e, mais recentemente, Node JS. Estou sempre focado em qualidade e inovação.",
+        "tags": [
+          "Microserviços"
+        ],
+        "socials": [
+          {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://br.linkedin.com/in/marco-aurelio-caldas-ribeiro-4ba15815"
+          },
+          {
+              "icon": "facebook",
+              "name": "Facebook",
+              "link": "https://www.facebook.com/profile.php?id=100002178291244"
+          }
+        ]
     }
 }

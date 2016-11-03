@@ -60,7 +60,7 @@
         "title": "AMA - Converse com os Artistas",
         "description": "Momento onde você poderá interagir com os palestrantes, tirar dúvidas e fazer networking",
         "speakers": [
-            
+
         ],
         "tags": [
         ]
@@ -143,13 +143,13 @@
     },
     "113": {
         "id": 113,
-        "title": "Hotmart - A DEFINIR",
-        "description": "A DEFINIR",
+        "title": "Do monólito ao microserviço: como escalar uma startup global?",
+        "description": "Conheça as evoluções tecnológicas que permitiram à Hotmart, uma startup formada por dois programadores, conquistar expansão em escala global. Vamos falar sobre como foi o processo, mostrar as dificuldades e, principalmente, apontar como as tecnologias, práticas e o trabalho em equipe deram suporte a essa evolução.",
         "speakers": [
-            22
+            19
         ],
         "tags": [
-            "Empreendedorismo"
+            "Libraries"
         ]
     },
     "112": {

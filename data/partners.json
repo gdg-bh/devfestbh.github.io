@@ -6,8 +6,60 @@
       {
         "name": "Google",
         "url": "https://www.google.com/",
-        "logoUrl": "../images/logos/google.svg"
+        "logoUrl": "../images/logos/google-developers.png"
+      }
+    ]
+  },
+  {
+    "title": "mágico",
+    "logosClass": "magic",
+    "logos": [
+      {
+        "name": "Hotmart",
+        "url": "https://www.google.com/",
+        "logoUrl": "../images/logos/hotmart.png"
+      },
+      {
+        "name": "Avenue Code",
+        "url": "https://www.avenuecode.com.br/",
+        "logoUrl": "../images/logos/avenue-code.jpg"
+      }
+    ]
+  },
+  {
+    "title": "mágico",
+    "logos": [
+      {
+        "name": "Github",
+        "url": "https://www.github.com/",
+        "logoUrl": "../images/logos/github.png"
+      },
+      {
+        "name": "Imasters",
+        "url": "https://www.imasters.com.br/",
+        "logoUrl": "../images/logos/imasters.png"
+      },
+      {
+        "name": "Novatec",
+        "url": "https://www.novatec.com.br/",
+        "logoUrl": "../images/logos/novatec.png"
+      },
+      {
+        "name": "Eu Compraria",
+        "url": "https://www.github.com/",
+        "logoUrl": "../images/logos/eucompraria.jpg"
+      },
+      {
+        "name": "Casa do Código",
+        "url": "https://www.casadocodigo.com.br/",
+        "logoUrl": "../images/logos/casadocodigo.png"
+      },
+      {
+        "name": "Udacity",
+        "url": "https://www.udacity.com/",
+        "logoUrl": "../images/logos/udacity.png"
       }
     ]
   }
+
 ]
