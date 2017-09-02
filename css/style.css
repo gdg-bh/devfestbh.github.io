@@ -25,7 +25,9 @@ body{
 .about{
 	background-color: white;
 	min-height: 100vh;
-	padding: 140px;
+	padding: 140px 0 140px 0;
+	text-align: justify;
+
 
 
 }
@@ -34,6 +36,28 @@ body{
 	color: #00CC7D;
 	font-weight: 800;
 	font-size: 70px;
+}
+
+.title-speakers{
+	color: #00CC7D;
+	font-weight: 800;
+	font-size: 70px;
+	text-transform: uppercase;
+}
+
+.title-tickets{
+	color: #856A0C;
+	font-weight: 800;
+	font-size: 70px;
+	text-transform: uppercase;
+}
+
+.title-local{
+	color: #1A192E;
+	font-weight: 800;
+	font-size: 70px;
+	text-transform: uppercase;
+
 }
  
 .title-two{
@@ -68,17 +92,21 @@ body{
 	background-color: #00BB6A;
 	color: white;
 	padding: 15px 30px;
+	margin-right: 10px;
+	box-shadow: 0px 0px 5px #000;
 }
 
 .btn-ticket:hover{
 	background-color: #006A3C;
 	color: white;
+
 }
 
 .btn-cfp{
 	background-color: #384F6E;
 	color: white;
 	padding: 15px 30px;
+	box-shadow: 0px 0px 10px #000;
 }
 
 .btn-cfp:hover{
@@ -159,17 +187,10 @@ body{
     filter: grayscale(100%);
 }
 
-.talker:hover{
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);	
-    cursor: pointer;
-}
+
 
 .speakers{
-	padding: 60px;
-	box-shadow: 0px 10px 20px #888888;
-	margin-bottom: 30px;
-	z-index: 9999;
+	padding: 140px 0 140px 0;
 }
 
 .talker-place{
@@ -212,12 +233,6 @@ body{
 	text-transform: uppercase;
 }
 
-.tickets{
-	background-color: #EABB16;
-	height: 100vh;
-	margin-top: -30px;
-	z-index: 1;
-}
 
 .dest{
 	font-weight: 700;
@@ -227,5 +242,82 @@ body{
 .willhave li{
 	list-style-type: none;
 	background-color: grey;
+
+}
+
+.about-title{
+	font-weight: 800;
+	text-transform: uppercase;
+
+}
+
+.video{
+	height: 100vh;
+}
+
+.m-t-30{
+	margin-top: 30px;
+}
+
+.m-t-60{
+	margin-top: 60px;
+}
+
+
+.c4paction{
+	color: #fff;
+	margin-top: 50px;
+	font-weight: 100;
+}
+
+.features{
+	color: white;
+	text-align: center;
+}
+
+.features p{
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.par{
+	background-color: #00CC7D;
+	padding: 20px;
+	margin: 0;
+}
+
+.impar{
+	background-color: #01b670;
+	padding: 20px;
+	margin: 0;
+}
+
+.local{
+	background-color: white;
+	min-height:  100vh;
+	padding: 140px 0 140px 0;
+}
+
+.onebusiness{
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.local img{
+	box-shadow: 0px 0px 5px #000;
+
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover {
+	color:#CADD4E;
+}
+
+
+footer ul li{
+	list-style: none;
 
 }
