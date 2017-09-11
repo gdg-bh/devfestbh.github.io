@@ -195,7 +195,8 @@ body{
 
 .talker-place{
 	margin-top: 5px;
-	width: 100px;
+	max-height: 40px;
+	max-width: 100px;
 }
 
 .talker-info{
