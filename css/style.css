@@ -48,7 +48,7 @@ body{
 .title-tickets{
 	color: #856A0C;
 	font-weight: 800;
-	font-size: 70px;
+	font-size: 60px;
 	text-transform: uppercase;
 }
 
@@ -172,6 +172,14 @@ body{
 	color: #ccc;
 }
 
+.patrocinadores h2{
+	font-size: 16px;
+	padding-top: 90px;
+	padding-bottom: 20px;
+	font-weight: 800;
+	color: #ccc;
+}
+
 .wat{
 	padding: 100px;
 	background-color: #384F6E;
@@ -205,6 +213,7 @@ body{
 }
 
 .talker-info h2{
+	font-size: 24px;
 	font-weight: 800;
 	text-transform: uppercase;
 	word-wrap: break-word;
@@ -344,3 +353,23 @@ footer ul li{
 .opacity{
 	opacity: 0.2;
 }
+
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
