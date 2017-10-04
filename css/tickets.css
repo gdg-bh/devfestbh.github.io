@@ -12,7 +12,7 @@
     box-shadow: 0px 0px 10px #000;
     border-radius: 5px;
     padding: 0px;
-    margin-right: 30px;
+ 
 }
 
 .ticket-type{
@@ -33,6 +33,10 @@
 
 .lote3{
     background-color: #00BB6A;
+}
+
+.lote4{
+    background-color: red;
 }
 
 
