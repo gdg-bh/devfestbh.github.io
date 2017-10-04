@@ -57,15 +57,13 @@
     color: white;
 }
 
-.tickets-buy:hover{
-    padding: 30px;
-    color: white;
-    text-decoration: none;
-
+.ticket-item a{
+  transition: .1s;
 }
 
-.tickets-buy a:hover{
+.ticket-item a:hover{
     text-decoration: none;
+    font-weight: bold;
 }
 
 .features p{
