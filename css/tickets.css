@@ -12,7 +12,8 @@
     box-shadow: 0px 0px 10px #000;
     border-radius: 5px;
     padding: 0px;
- 
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .ticket-type{
@@ -24,11 +25,11 @@
 }
 
 .early-bird{
-    background-color: #FFCB48;    
+    background-color: #FFCB48;
 }
 
 .lote2{
-    background-color: #0095EF;    
+    background-color: #0095EF;
 }
 
 .lote3{
@@ -36,7 +37,7 @@
 }
 
 .lote4{
-    background-color: red;
+    background-color: #DE1A1A;
 }
 
 
