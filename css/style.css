@@ -245,12 +245,12 @@ h1{
 	font-size: 30px;
 	font-weight: 800;
 	margin-bottom: 80px;
+	margin-top: 80px;
 	text-transform: uppercase;
 }
 
 .speakers h1{
 	color: white;
-	
 }
 
 .local h1{
