@@ -183,6 +183,13 @@ body{
     filter: grayscale(100%);
 }
 
+.organizer{
+	
+	width: 100%;
+	height: auto;
+}
+
+
 
 
 .speakers{
@@ -193,6 +200,7 @@ body{
 	margin-top: 5px;
 	max-height: 40px;
 	max-width: 100px;
+	float: none;
 }
 
 .talker-info{
@@ -220,15 +228,23 @@ body{
 	padding:20px;
 }
 
-.item-speaker:hover{
-	padding:30px;
-
-
-	.item-speaker-container{
-		
-	}
+.item-organizer{
+	padding: 20px;
 }
 
+
+.organizers{
+	background-color: #00BB6A;
+	padding: 50px;
+
+}
+
+.item-organizer-container{
+	padding: 40px;
+	background-color: rgb(0, 131, 74);
+	border-radius: 20px;
+	 box-shadow: 0px 0px 2px #000;
+}
 .item-speaker-container{
 	padding: 40px;
 	background-color: #131221;
@@ -261,8 +277,9 @@ h1{
 	color: #1A192E;
 }
 
-.dest{
+.dest p{
 	font-weight: 700;
+	font-size: 50px;
 }
 
 
@@ -372,6 +389,7 @@ footer ul li{
 }
 
 
+
 .vcenter {
     display: flex;
     align-items: center;
@@ -389,4 +407,29 @@ footer ul li{
         left: 0;
         width: 100% !important;
         height: 100% !important;
-    }
+	}
+	
+
+	/*schedule*/
+
+	.schedule{
+		background-color: white;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.s-keynote{
+		background-color: #ccc;
+	}
+
+	.s-title{
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 24px;
+		text-transform: uppercase;
+
+	}
+
+	.s-speaker{
+		font-weight: 300;
+		color: #7f8c8d;
+	}
