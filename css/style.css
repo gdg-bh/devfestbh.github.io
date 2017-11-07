@@ -20,7 +20,15 @@ body{
 	font-size: 40px;
 }
 
+.soldOut{
+	font-size: 30px;
+	color: white;
+}
 
+.soldOutSub{
+	font-size: 16px;
+	color: white;
+}
 
 .about{
 	background-color: white;
