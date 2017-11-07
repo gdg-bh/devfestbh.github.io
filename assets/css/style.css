@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+body{
+	background-color: #1a192e;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.about h1{
+	text-transform: uppercase;
+}
+
+
+.about p{
+	font-weight: 100;
+	font-size: 20px;
+}
+.title-main{
+	color: black;
+	font-size: 40px;
+}
+
+.soldOut{
+	font-size: 30px;
+	color: white;
+}
+
+.soldOutSub{
+	font-size: 16px;
+	color: white;
+}
+
+.about{
+	background-color: white;
+	min-height: 100vh;
+	padding: 140px 0 140px 0;
+	text-align: justify;
+
+
+
+}
+
+.title-one{
+	color: #00CC7D;
+	font-weight: 800;
+	font-size: 50px;
+}
+
+
+.title-tickets{
+	color: #856A0C;
+	font-weight: 800;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+
+ 
+.title-two{
+	color: #0095EF;
+}
+
+.home{
+	background-color: #19192E;
+	background: url(../img/bg_home.png);
+	background-size: 100% auto;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+
+.logo{
+	width: 300px;
+	height: auto;
+}
+
+.home2{
+  background: url(../img/devfestbh.png);
+  height: 100vh;
+  background-size: 100% auto;
+  background-attachment: fixed;
+
+/*  background-attachment: fixed;*/
+}
+
+
+.btn-ticket{
+	background-color: #00BB6A;
+	color: white;
+	padding: 15px 30px;
+	margin-right: 10px;
+	box-shadow: 0px 0px 5px #000;
+}
+
+.btn-ticket:hover{
+	background-color: #006A3C;
+	color: white;
+
+}
+
+.btn-cfp{
+	background-color: #384F6E;
+	color: white;
+	padding: 15px 30px;
+	box-shadow: 0px 0px 10px #000;
+}
+
+.btn-cfp:hover{
+	color: white;
+	background-color: #26364c;
+}
+.info{
+	color: white;
+
+}
+
+.info h1{
+	color: white;
+}
+
+
+.info{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.info p{
+	color: #dfdfdf;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.bold{
+	font-weight: 800;
+}
+
+.place{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+.event{
+	background-color: #white;
+	height: 100vh;
+}
+
+.event p{
+	color: white;
+}
+
+.event h1{
+	color: white
+}
+
+.patrocinadores{
+	padding: 50px;
+	background-color: white;
+	text-transform: uppercase;
+}
+
+.patrocinadores h1{
+	font-size: 20px;
+	padding-top: 90px;
+	padding-bottom: 20px;
+	font-weight: 800;
+	color: #ccc;
+}
+
+.patrocinadores h2{
+	font-size: 16px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-weight: 800;
+	color: #ccc;
+}
+
+.wat{
+	padding: 100px;
+	background-color: #384F6E;
+	background: url(../img/wat.png);
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
+.talker{
+	width: 100%;
+	height: auto;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.organizer{
+	
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+.speakers{
+	padding: 140px 0 140px 0;
+}
+
+.talker-place{
+	margin-top: 5px;
+	max-height: 40px;
+	max-width: 100px;
+	float: none;
+}
+
+.talker-info{
+	padding-top: 20px;
+	color: white;
+}
+
+.talker-info h2{
+	font-size: 20px;
+	font-weight: 800;
+	text-transform: uppercase;
+	word-wrap: break-word;
+}
+
+.talker-info h2 span{
+	display: list-item;
+	list-style:none;
+}
+
+.row-speakers{
+	margin-top: 60px;
+}
+
+.item-speaker{
+	padding:20px;
+}
+
+.item-organizer{
+	padding: 20px;
+}
+
+
+.organizers{
+	background-color: #00BB6A;
+	padding: 50px;
+
+}
+
+.item-organizer-container{
+	padding: 40px;
+	background-color: rgb(0, 131, 74);
+	border-radius: 20px;
+	box-shadow: 0px 0px 2px #000;
+}
+.item-speaker-container{
+	padding: 40px;
+	background-color: #131221;
+	border-radius: 20px;
+	box-shadow: 0px 0px 2px #000;
+}
+
+.item-patrocinador{
+	margin-bottom: 60px;
+}
+
+
+h1{
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 80px;
+	margin-top: 80px;
+	text-transform: uppercase;
+}
+
+.speakers h1{
+	color: white;
+}
+
+.local h1{
+	color: #1A192E;
+}
+
+.tickets h1{
+	color: #1A192E;
+}
+
+.dest p{
+	font-weight: 700;
+	font-size: 50px;
+}
+
+
+.willhave li{
+	list-style-type: none;
+	background-color: grey;
+
+}
+
+.about-title{
+	font-weight: 800;
+	text-transform: uppercase;
+
+}
+
+.video{
+	height: 100vh;
+}
+
+.m-t-30{
+	margin-top: 30px;
+}
+
+.m-t-60{
+	margin-top: 60px;
+}
+
+
+.c4paction{
+	font-size: 30px;
+	color: #fff;
+	margin-top: 60px;
+	font-weight: 800;
+	text-transform: uppercase;
+
+}
+
+.c4paction-sub{
+	font-size: 16px;
+	color: #fff;
+	margin-top: 30px;
+	font-weight:100;
+	text-transform: uppercase;
+
+}
+
+.features{
+	color: white;
+	text-align: center;
+}
+
+.features p{
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.par{
+	background-color: #00CC7D;
+	padding: 20px;
+	margin: 0;
+}
+
+.impar{
+	background-color: #01b670;
+	padding: 20px;
+	margin: 0;
+}
+
+.local{
+	background-color: white;
+	min-height:  100vh;
+	padding: 140px 0 140px 0;
+}
+
+.onebusiness{
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.local img{
+	box-shadow: 0px 0px 5px #000;
+
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover {
+	color:#CADD4E;
+}
+
+
+footer ul li{
+	list-style: none;
+
+}
+
+.formas{
+	position: absolute;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.opacity{
+	opacity: 0.2;
+}
+
+
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+	}
+	
+
+	/*schedule*/
+
+	.schedule{
+		background-color: white;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.s-keynote{
+		background-color: #ccc;
+	}
+
+	.s-title{
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 24px;
+		text-transform: uppercase;
+
+	}
+
+	.s-speaker{
+		font-weight: 300;
+		color: #7f8c8d;
+	}
+
+
+.social-link a {
+  opacity: .5;
+  color: #fff;
+  padding: 2px 5px;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  font-size: 18px; }
+.social-link a:Hover { opacity: 1; color:#fff; border-color:#2da9ff; }

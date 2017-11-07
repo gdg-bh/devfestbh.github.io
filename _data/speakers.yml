@@ -1,0 +1,200 @@
+- name: Alê Borba
+  avatar: ale-borba.jpg
+  avatar-alt: "Foto da palestrante Alê Borba"
+  company: Google
+  company-alt: "Local de trabalho do Alê Borba: Google"
+  company-image: google.png
+  badges: 
+    - badge: badge-success
+      name: Comunidades
+
+- name: Afonso Pacifer
+  avatar: afonso-pacifer.jpg
+  avatar-alt: "Foto do palestrante Afonso Pacifer"
+  badges:
+    - badge: badge-danger
+      name: Front-end
+    - badge: badge-success
+      name: Polymer
+  
+- name: Ana Bastos
+  avatar: ana-bastos.jpg
+  avatar-alt: "Foto da palestrante Ana Bastos"
+  company: JsLadies
+  company-alt: "Local de trabalho da Ana Bastos: JsLadies"
+  company-image: jsladies.png
+  badges:
+    - badge: badge-danger
+      name: Javascript
+
+- name: Agnaldo Lopes
+  avatar: agnaldo-lopes.png
+  avatar-alt: "Foto do palestrante Agnaldo Lopes"
+  company: Open Robotics 
+  company-image: open-robotics.png
+  company-alt: "Local de trabalho do Agnaldo Lopes: Open Robotics"
+  badges:
+    - badge: badge-info
+      name: Empreendedorismo
+    - badge: badge-warning
+      name: Robótica
+
+- name: Alline Oliveira
+  avatar: alline-oliveira.jpg
+  avatar-alt: "Foto da palestrante Alline Oliveira"
+  company: Google Developer Expert
+  company-alt: "Aline é GDE: Google Developer Expert"
+  company-image: gde.png
+  badges:
+    - badge: badge-primary
+      name: Cloud
+
+- name: Breno Araújo
+  avatar: breno-araujo.jpg
+  avatar-alt: "Foto do palestrante Breno Araújo"
+  company: Google
+  company-alt: "Local de trabalho do Breno Araújo: Google"
+  company-image: google.png
+  badges:
+    - badge: badge-danger
+      name: Assistant
+
+- name: Bruno Pulis
+  avatar-alt: "Foto do palestrante Bruno Pulis"
+  avatar: bruno-pulis.jpg
+  badges:
+    - badge: badge-success
+      name: Acessibilidade
+
+- name: Camila Moura
+  avatar: camila-moura.jpg
+  avatar-alt: "Foto da palestrante Camila Moura"
+  company: Google
+  company-alt: "Local de trabalho da Camila Moura: Google"
+  company-image: google.png
+  badges:
+    - badge: badge-info
+      name: Diversidade
+
+- name: Cássio Botaro
+  avatar: cassio-botaro.jpg
+  avatar-alt: "Foto do palestrante Cássio Botaro"
+  company: Nuveo
+  company-alt: "Local de trabalho do Cassio Botaro: Nuveo"
+  company-image: nuveo.png
+  badges:
+    - badge: badge-success
+      name: Go
+
+- name: Ciranda de Morais
+  avatar: ciranda-de-morais.jpg
+  avatar-alt: "Foto da palestrante Ciranda de Morais"
+  company-alt: "Local de trabalho da Ciranda de Morais: She's Tech"
+  company-image: shes-tech.png
+  badges:
+    - badge: badge-info
+      name: Empreendedorismo
+
+- name: Caio Occhini
+  avatar: caio-occhini.png
+  avatar-alt: "Foto do palestrante Caio Occhini"
+  company: Google
+  company-alt: "Local de trabalho do Caio Occhini: Google"
+  company-image: google.png
+  badges:
+    - badge: badge-danger
+      name: Admob
+
+- name: Evelyn Mendes
+  avatar: evelyn-mendes.jpg
+  avatar-alt: "Foto da palestrante Evelyn Mendes"
+  companies: 
+    - company: Devas
+      company-alt: "Local de trabalho da Evelyn Mendes: Devas"
+      company-image: devas.jpeg
+    - company: Db Server
+      company-alt: "Local de trabalho da Evelyn Mendes: Db Server"
+      company-image: dbserver.png
+  badges:
+    - badge: badge-danger
+      name: Front-end
+    - badge: badge-success
+      name: Angular 4
+    - badge: badge-warning
+      name: Firebase
+
+- name: Juliana Helena
+  avatar: juliana-helena.jpg
+  avatar-alt: "Foto da palestrante Juliana Helena"
+  company: Improtec Sistemas
+  company-alt: "Local de trabalho da Juliana Helena: Improtec Sistemas"
+  company-image: improtec.png
+  badges:
+    - badge: badge-danger
+      name: SEO
+
+- name: Marco Oliveira
+  avatar: marco-oliveira.jpg
+  avatar-alt: "Foto do palestrante Marco Oliveira"
+  company: Google
+  company-alt: "Local de trabalho do Marco Oliveira: Google"
+  company-image: google.png
+  badges:
+    - badge: badge-danger
+      name: Assistant
+
+- name: Rafael Toledo
+  avatar: rafael-toledo.jpg
+  avatar-alt: "Foto do palestrante Rafael Toledo"
+  company: Concrete
+  company-alt: "Local de trabalho do Rafael Toledo: Concrete"
+  company-image: concrete.svg
+  badges:
+    - badge: badge-success
+      name: Kotlin
+    - badge: badge-success
+      name: Android
+
+- name: Sarah Kacowicz
+  avatar: sarah-kacowicz.jpg
+  avatar-alt: "Foto da palestrante Sarah Kacowicz"
+  company: Google Local Guides
+  company-alt: "Local de trabalho da Sarah Kacowicz: Google Local Guides"
+  company-image: local-guides.png
+  badges:
+    - badge: badge-danger
+      name: Local Guides
+
+- name: Suzyanne Oliveira
+  avatar: suzyanne.jpg
+  avatar-alt: "Foto da palestrante Suzyanne Oliveira"
+  companies:
+    - company: Code Girl
+      company-alt: "Local de trabalho da Suzyanne Oliveira: Code Girl"
+      company-image: code-girl.png
+    - company: Thoughtworks
+      company-alt: "Local de trabalho da Suzyanne Oliveira: Thoughtworks"
+      company-image: thoughtworks.png
+  badges:
+    - badge: badge-info
+      name: User Experience
+
+- name: Rafael Pacheco
+  avatar: rafael-pacheco.jpg
+  avatar-alt: "Foto do palestrante Rafael Pacheco"
+  company: Take
+  company-alt: "Local de trabalho do Rafael Pacheco: Take"
+  company-image: take.png
+  badges:
+    - badge: badge-info
+      name: Internet of Things
+
+- name: Joselito Júnior
+  avatar: joselito-junior.png
+  avatar-alt: "Foto do palestrante Joselito Júnior"
+  company: Tampa
+  company-alt: "Local de trabalho do Joselito Júnior: Tampa, que é uma das empresas patrocinadoras do Devfest BH 2017"
+  company-image: tampa.svg
+  badges:
+    - badge: badge-info
+      name: Progressive Web Apps

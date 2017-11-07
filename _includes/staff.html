@@ -1,0 +1,28 @@
+<section class="organizers" id="organizers">
+  <div class="container text-center">
+    <h1>Organizadores</h1>
+
+    <div class="row justify-content-center">
+
+      {% for person in site.data.staff %}
+      <div class="col col-md-3 col-sm-12 col-xs-12 item-organizer">
+        <div class="item-organizer-container">
+          <img class="organizer rounded-circle" src="assets/img/organizadores/{{ person.avatar }}" alt="Foto da pessoa: {{ person.name }}">
+          <div class="talker-info">
+            <h2>{{ person.name }}</h2>
+            <div class="social-link">
+              {% if person.twitter %}
+              <a href="http://twitter.com/{{ person.twitter }}" target="_blank"><span class="fa fa-twitter" aria-label="Twitter {{ item.name }}"></span></a>
+              {% endif %}
+              {% if person.linkedin %}
+              <a href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank"><span class="fa fa-linkedin" aria-label="Linkedin {{ item.name }}"></span></a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

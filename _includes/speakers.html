@@ -1,0 +1,35 @@
+<section class="speakers" id="speakers">
+    <!-- PALESTRANTES -->
+    <div class="container text-center">
+        <h1>
+            Palestrantes
+        </h1>
+        <div class="row justify-content-center">
+            {% for speaker in site.data.speakers %}
+            <div class="col col-md-3 col-sm-12 col-xs-12 item-speaker">
+                <div class="item-speaker-container">
+                    <img alt="{{ speaker.avatar-alt }}" class="talker rounded-circle" src="assets/img/talkers/{{ speaker.avatar }}">
+                    <div class="talker-info">
+                        <h2>
+                            {{ speaker.name }}
+                        </h2>
+                        {% if speaker.companies %}
+                        {% for cia in speaker.companies %}
+                        <img alt="{{ cia.company-alt }}" class="talker-place" src="assets/img/talkers/empresas/{{ cia.company-image }}" />
+                        {% endfor %}
+                        {% endif %}
+                        {% if speaker.company %}
+                        <img alt="{{ speaker.company-alt }}" class="talker-place" src="assets/img/talkers/empresas/{{ speaker.company-image }}" />
+                        {% endif %}
+                        <br\>
+                        {% for badge in speaker.badges %}
+                        <span class="badge {{ badge.badge }}">{{ badge.name }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <p class="c4paction">em breve a programação completa, AGUARDE!</p>
+    </div>
+</section>

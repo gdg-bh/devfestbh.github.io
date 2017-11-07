@@ -1,0 +1,147 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="O Devfest é um evento gerido pela comunidade GDG Belo Horizonte, oferecendo atividades relacionadas à tecnologia, inovação, empreendedorismo e muitos outros assuntos.">
+  <link rel="icon" href="assets/img/ICO.png">
+
+
+  <meta property="og:image" content="assets/img/devfestbh2017.png">
+  <meta property="og:image:type" content="image/jpeg">
+
+  <title>DEVFEST BELO HORIZONTE 2017</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/album.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/tickets.css" rel="stylesheet">
+  <link href="assets/css/animate.css" rel="stylesheet" >
+
+</head>
+
+<body>
+
+  <div class=".sr-only">
+    <p>Olá! Este é o site do Devfest Belo Horizonte 2017! Qualquer dúvida entre em contato conosco por gdgbhz@gmail.com.</p>
+  </div>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">O evento</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#local">Local</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#speakers">Palestrantes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#schedule">Programação</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#tickets">Ingressos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#organizers">Organização</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+{{ content }}
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Voltar ao topo</a>
+    </p>
+    <p>Links úteis</p>
+    <ul>
+      <!-- <li><a target="_blank" href="https://loja.tampa.works/produto/devfest-bh-2017/">Comprar ingresso</a></li> -->
+      <li><a target="_blank" href="https://github.com/gdg-bh/codigo-de-conduta">Código de conduta</a></li>
+      <li><a target="_blank" href="https://www.facebook.com/gdgbh">Facebook</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+<!-- ******** MODAIS ******** -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Call for papers</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <script type="text/javascript" src="assets/js/jquery.js"></script>
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/holder.min.js"></script>
+      <script src="assets/js/maps.js"></script>
+      <script>
+        $(function () {
+          Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+        });
+      </script>
+
+      <script>
+        $('a').click(function(){
+          $('html, body').animate({
+            scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+          }, 500);
+          return false;
+        });
+      </script>
+
+
+
+      <script src="assets/node_modules/wow.js/dist/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+
+      <script src="assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    </body>
+    </html>
