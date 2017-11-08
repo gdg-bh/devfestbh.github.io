@@ -1,5 +1,5 @@
  <section class="schedule" id="schedule">
-  
+
   <div class="container">
     <div class="text-center">
       <h1>Programação</h1>
@@ -7,104 +7,27 @@
     
     <table class="table table-striped table-responsive">
       <tbody>
-        <tr class="table-info">
-          <th scope="row">7:30</th>
+        {% for talk in site.data.agenda %}
+        <tr class="{{talk.class}}">
+          <th scope="row">{{ talk.hour }}</th>
+          {% if talk.title %}
           <td colspan="3" class="text-center">
-            <p class="s-title">Credenciamento & Welcome Coffee</p>
-            <p class="s-speaker">Não deixe de contribuir para a campanha Social Impact, trazendo 1kg de alimento!
-              <3</p>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">9:00</th>
-            <td colspan="3" class="text-center">
-              <p class="s-title">Welcome Session!</p>
-              <p class="s-speaker">Organizadores do Devfest BH</p>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">9:15</th>
-            <td colspan="3" class="text-center">
-              <p class="s-title">Entre humanos e formigas</p>
-              <p class="s-speaker">Alê Borba (Google)</p>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">9:55</th>
-            <td><p class="s-title">Construindo Apps para o Assistente do Google</p><p class="s-speaker">Breno Araújo & Marco Oliveira (Google)</p></td>
-            <td><p class="s-title">Palestra</p><p class="s-speaker">Em breve!</p></td>
-            <td><p class="s-title">O lado oculto dos componentes : a acessibilidade como sua aliada</p><p class="s-speaker">Bruno Pullis</p></td>
-          </tr>
-          <tr>
-            <th scope="row">10:45</th>
-            <td><p class="s-title">Polymer Project: State of Union</p><p class="s-speaker">Afonso Pacifer</p></td>
-            <td><p class="s-title">Diversidade & Inclusão no Google</p><p class="s-speaker">Camila Moura (Google)</p></td>
-            <td><p class="s-title">Google Home  & Actions: Criando um assistente pessoal de voz para o Google Home</p><p class="s-speaker">Rafael Pacheco (Take)</p></td>
-          </tr>
-          <tr>
-            <th scope="row">11:35</th>
-            <td><p class="s-title">Em breve!</p><p class="s-speaker">Carolina Bigonha</p></td>
-            <td><p class="s-title">Modelos de Negócios: Monetizando apps com AdMob?</p><p class="s-speaker">Caio Occhini (Google)</p></td>
-            <td><p class="s-title">Interação e integração mundial sendo uma Local Guide do Google Maps</p><p class="s-speaker">Sarah Kacowicz</p></td>
-          </tr>
-
-          <tr class="table-info">
-            <th scope="row">12:15</th>
-            <td colspan="3" class="text-center">
-              <p class="s-title">Almoço</p>
-              <p class="s-speaker"></p>
-            </td>
-          </tr>
-
-          <tr>
-            <th scope="row">13:45</th>
-            <td><p class="s-title">Progressive Web apps</p><p class="s-speaker">Joselito Júnior (Tampa)</p></td>
-            <td><p class="s-title">Palestra</p><p class="s-speaker">Em breve!</p></td>
-            <td><p class="s-title">Aprendizagem Mão na Massa</p><p class="s-speaker">Agnaldo Lopes (OpenRobotics)</p></td>
-          </tr>
-
+            <p class="s-title">{{ talk.title }}</p>
+            <p class="s-speaker">{{ talk.speaker }}</p>
+          </td>
+          {% endif %}
+          {% if talk.speakers %}
+          {% for subtalk in talk.speakers %}
+          <td>
+            <p class="s-title">{{ subtalk.title }}</p>
+            <p class="s-speaker">{{ subtalk.speaker }}</p>
+          </td>
+          {% endfor %}
+          {% endif %}
         </tr>
-        <th scope="row">14:35</th>
-        <td><p class="s-title">Palestra</p><p class="s-speaker">Em breve!</p></td>
-        <td><p class="s-title">ZeroOps na Google Cloud. Do básico ao avançado.</p><p class="s-speaker">Alline Oliveira (GDE)</p></td>
-        <td><p class="s-title">Integrando Marketing e Desenvolvimento - SEO para leigos</p><p class="s-speaker">Juliana Helena (Improtec)</p></td>
-      </tr>
-      <th scope="row">15:25</th>
-      <td><p class="s-title">Em breve!</p><p class="s-speaker">Ana Bastos</p></td>
-      <td><p class="s-title">Kotlin: Padrões e Boas Práticas</p><p class="s-speaker">Rafael Toledo (Concrete)</p></td>
-      <td><p class="s-title">O  valor da experiência do usuário para o negócio</p><p class="s-speaker">Suzyanne Oliveira (Thoughtworks)</p></td>
-    </tr>
+        {% endfor %}
+      </tbody>
+    </table>
 
-    <tr class="table-info">
-      <th scope="row">16:05</th>
-      <td colspan="3" class="text-center">
-        <p class="s-title">COFFEE BREAK</p>
-      </td>
-    </tr>
-    <th scope="row">16:45</th>
-    <td><p class="s-title">Em breve!</p><p class="s-speaker">Ciranda de Morais (She's Tech)</p></td>
-    <td><p class="s-title">Angular 4 + Firebase - Realtime não precisa ser complicado!</p><p class="s-speaker">Evelyn Mendes (Devas / DB Server)</p></td>
-    <td><p class="s-title">Hey ho, let's GO</p><p class="s-speaker">Cássio Botaro (Nuveo)</p></td>
-  </tr>
-
-  <tr>
-    <th scope="row">17:35</th>
-    <td colspan="3" class="text-center">
-      <p class="s-title">Palestra</p>
-      <p class="s-speaker">Em breve!</p>
-    </td>
-  </tr>
-
-  <tr>
-    <th scope="row">18:20</th>
-    <td colspan="3" class="text-center">
-      <p class="s-title">Encerramento Oficial</p>
-      <p class="s-speaker">Organizadores do Devfest BH</p>
-    </td>
-  </tr>
-
-</tbody>
-</table>
-
-</div>
+  </div>
 </section>

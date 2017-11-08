@@ -1,0 +1,106 @@
+- hour: "7:30"
+  title: Credenciamento & Welcome Coffee
+  speaker: Não deixe de contribuir para a campanha Social Impact, trazendo 1kg de alimento! <3
+  class: table-info
+            
+- hour: "9:00"
+  title: Welcome Session!
+  speaker: Organizadores do Devfest BH
+
+- hour: "9:15"
+  title: Entre humanos e formigas
+  speaker: Alê Borba (Google)
+            
+- hour: "9:55"
+  speakers:
+    - title: Construindo Apps para o Assistente do Google
+      speaker: Breno Araújo & Marco Oliveira (Google)
+
+    - title: Palestra
+      speaker: Em breve!
+
+    - title: "O lado oculto dos componentes : a acessibilidade como sua aliada"
+      speaker: Bruno Pullis
+
+- hour: "10:45"
+  speakers:
+    - title: "Polymer Project: State of Union"
+      speaker: Afonso Pacifer
+
+    - title: Diversidade & Inclusão no Google
+      speaker: Camila Moura (Google)
+
+    - title: "Google Home & Actions: Criando um assistente pessoal de voz para o Google Home"
+      speaker: Rafael Pacheco (Take)
+
+- hour: "11:35"
+  speakers:
+    - title: Em breve!
+      speaker: Carolina Bigonha
+
+    - title: "Modelos de Negócios: Monetizando apps com AdMob?"
+      speaker: Caio Occhini (Google)
+
+    - title: Interação e integração mundial sendo uma Local Guide do Google Maps
+      speaker: Sarah Kacowicz
+
+- hour: "12:15"
+  title: Almoço
+  class: table-info
+            
+- hour: "13:45"
+  speakers:
+    - title: Progressive Web apps
+      speaker: Joselito Júnior (Tampa)
+
+    - title: Palestra
+      speaker: Em breve!
+
+    - title: Aprendizagem Mão na Massa
+      speaker: Agnaldo Lopes (OpenRobotics)
+
+- hour: "14:35"
+  speakers:
+    - title: Palestra
+      speaker: Em breve!
+
+    - title: ZeroOps na Google Cloud. Do básico ao avançado.
+      speaker: Alline Oliveira (GDE)
+
+    - title: Integrando Marketing e Desenvolvimento - SEO para leigos
+      speaker: Juliana Helena (Improtec)
+
+- hour: "15:25"
+  speakers:
+    - title: Em breve!
+      speaker: Ana Bastos
+
+    - title: "Kotlin: Padrões e Boas Práticas"
+      speaker: Rafael Toledo (Concrete)
+
+    - title: O  valor da experiência do usuário para o negócio
+      speaker: Suzyanne Oliveira (Thoughtworks)
+
+- hour: "16:05"
+  title: COFFEE BREAK
+  class: table-info
+      
+- hour: "16:45"
+  speakers:
+    - title: Em breve!
+      speaker: Ciranda de Morais (She's Tech)
+
+    - title: Angular 4 + Firebase - Realtime não precisa ser complicado!
+      speaker: Evelyn Mendes (Devas / DB Server)
+
+    - title: Hey ho, let's GO
+      speaker: Cássio Botaro (Nuveo)
+
+- hour: "17:35"
+  title: Palestra
+  speaker: Em breve!
+    
+- hour: "18:20"
+  title: Encerramento Oficial
+  speaker: Organizadores do Devfest BH
+    
