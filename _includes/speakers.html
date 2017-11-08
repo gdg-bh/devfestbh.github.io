@@ -30,6 +30,19 @@
             </div>
             {% endfor %}
         </div>
-        <p class="c4paction">em breve a programação completa, AGUARDE!</p>
+        
+        <h1>Apresentadoras</h1>
+        <div class="row justify-content-center">
+            {% for presenter in site.data.hosts %}
+                <div class="col col-md-3 col-sm-12 col-xs-12 item-speaker">
+                  <div class="item-speaker-container">
+                    <img class="talker rounded-circle" src="img/organizadores/{{ presenter.avatar }}" alt="Foto da apresentadora {{ presenter.name }}">
+                    <div class="talker-info">
+                      <h2>{{ presenter.name }}</h2>
+                    </div>
+                  </div>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </section>
