@@ -4,7 +4,7 @@
   company: Google
   company-alt: "Local de trabalho do Alê Borba: Google"
   company-image: google.png
-  badges: 
+  badges:
     - badge: badge-success
       name: Comunidades
 
@@ -16,7 +16,7 @@
       name: Front-end
     - badge: badge-success
       name: Polymer
-  
+
 - name: Ana Bastos
   avatar: ana-bastos.jpg
   avatar-alt: "Foto da palestrante Ana Bastos"
@@ -27,10 +27,17 @@
     - badge: badge-danger
       name: Javascript
 
+- name: Ana Coimbra
+  avatar: ana-coimbra.jpg
+  avatar-alt: "Foto da palestrante Ana Coimbra"
+  badges:
+    - badge: badge-success
+      name: Carreira
+
 - name: Agnaldo Lopes
   avatar: agnaldo-lopes.png
   avatar-alt: "Foto do palestrante Agnaldo Lopes"
-  company: Open Robotics 
+  company: Open Robotics
   company-image: open-robotics.png
   company-alt: "Local de trabalho do Agnaldo Lopes: Open Robotics"
   badges:
@@ -109,7 +116,7 @@
 - name: Evelyn Mendes
   avatar: evelyn-mendes.jpg
   avatar-alt: "Foto da palestrante Evelyn Mendes"
-  companies: 
+  companies:
     - company: Devas
       company-alt: "Local de trabalho da Evelyn Mendes: Devas"
       company-image: devas.jpeg
@@ -134,15 +141,22 @@
     - badge: badge-danger
       name: SEO
 
-- name: Marco Oliveira
-  avatar: marco-oliveira.jpg
-  avatar-alt: "Foto do palestrante Marco Oliveira"
-  company: Google
-  company-alt: "Local de trabalho do Marco Oliveira: Google"
-  company-image: google.png
+- name: Lorena Souza
+  avatar: lorena-souza.jpg
+  avatar-alt: "Foto da palestrante Lorena Souza"
+  company: Thoughtworks
+  company-alt: "Local de trabalho da Juliana Helena: Improtec Sistemas"
+  company-image: thoughtworks.png
   badges:
-    - badge: badge-danger
-      name: Assistant
+    - badge: badge-warning
+      name: AI
+
+- name: Lorena Vilas Boas
+  avatar: lorena-vilas-boas.jpg
+  avatar-alt: "Foto da palestrante Lorena Vilas Boas"
+  badges:
+    - badge: badge-success
+      name: Comunidades
 
 - name: Rafael Toledo
   avatar: rafael-toledo.jpg
