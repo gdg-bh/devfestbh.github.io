@@ -113,23 +113,23 @@
     - badge: badge-danger
       name: Admob
 
-- name: Evelyn Mendes
-  avatar: evelyn-mendes.jpg
-  avatar-alt: "Foto da palestrante Evelyn Mendes"
-  companies:
-    - company: Devas
-      company-alt: "Local de trabalho da Evelyn Mendes: Devas"
-      company-image: devas.jpeg
-    - company: Db Server
-      company-alt: "Local de trabalho da Evelyn Mendes: Db Server"
-      company-image: dbserver.png
-  badges:
-    - badge: badge-danger
-      name: Front-end
-    - badge: badge-success
-      name: Angular 4
-    - badge: badge-warning
-      name: Firebase
+# - name: Evelyn Mendes
+#   avatar: evelyn-mendes.jpg
+#   avatar-alt: "Foto da palestrante Evelyn Mendes"
+#   companies:
+#     - company: Devas
+#       company-alt: "Local de trabalho da Evelyn Mendes: Devas"
+#       company-image: devas.jpeg
+#     - company: Db Server
+#       company-alt: "Local de trabalho da Evelyn Mendes: Db Server"
+#       company-image: dbserver.png
+#   badges:
+#     - badge: badge-danger
+#       name: Front-end
+#     - badge: badge-success
+#       name: Angular 4
+#     - badge: badge-warning
+#       name: Firebase
 
 - name: Juliana Helena
   avatar: juliana-helena.jpg
@@ -213,3 +213,15 @@
   badges:
     - badge: badge-info
       name: Progressive Web Apps
+
+- name: Liliane Arazawa
+  avatar: liliane-arazawa.jpg
+  avatar-alt: "Foto da palestrante Liliane Arazawa"
+  # company: Tampa
+  # company-alt: "Liliane Arazawa é ativista na rede Women In Blockchain Brasil"
+  # company-image: women-in-blockchain-brasil.png
+  badges:
+    - badge: badge-danger
+      name: Blockchain
+    - badge: badge-info
+      name: Tendências Tecnológicas
