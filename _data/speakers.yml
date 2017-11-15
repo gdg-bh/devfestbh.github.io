@@ -123,6 +123,34 @@
     - badge: badge-danger
       name: SEO
 
+- name: Joselito Júnior
+  avatar: joselito-junior.png
+  avatar-alt: "Foto do palestrante Joselito Júnior"
+  company: Tampa
+  company-alt: "Local de trabalho do Joselito Júnior: Tampa, que é uma das empresas patrocinadoras do Devfest BH 2017"
+  company-image: tampa.svg
+  badges:
+    - badge: badge-info
+      name: Progressive Web Apps
+
+- name: Laryssa Magalhães
+  avatar: laryssa.jpg
+  avatar-alt: "Foto da palestrante Laryssa Magalhães"
+  badges:
+    - badge: badge-danger
+      name: Front-end
+    - badge: badge-success
+      name: CSS
+
+- name: Liliane Arazawa
+  avatar: liliane-arazawa.jpg
+  avatar-alt: "Foto da palestrante Liliane Arazawa"
+  badges:
+    - badge: badge-danger
+      name: Blockchain
+    - badge: badge-info
+      name: Tendências Tecnológicas
+
 - name: Lorena Souza
   avatar: lorena-souza.jpg
   avatar-alt: "Foto da palestrante Lorena Souza"
@@ -139,6 +167,16 @@
   badges:
     - badge: badge-success
       name: Comunidades
+
+- name: Rafael Pacheco
+  avatar: rafael-pacheco.jpg
+  avatar-alt: "Foto do palestrante Rafael Pacheco"
+  company: Take
+  company-alt: "Local de trabalho do Rafael Pacheco: Take"
+  company-image: take.png
+  badges:
+    - badge: badge-info
+      name: Internet of Things
 
 - name: Rafael Toledo
   avatar: rafael-toledo.jpg
@@ -175,35 +213,3 @@
   badges:
     - badge: badge-info
       name: User Experience
-
-- name: Rafael Pacheco
-  avatar: rafael-pacheco.jpg
-  avatar-alt: "Foto do palestrante Rafael Pacheco"
-  company: Take
-  company-alt: "Local de trabalho do Rafael Pacheco: Take"
-  company-image: take.png
-  badges:
-    - badge: badge-info
-      name: Internet of Things
-
-- name: Joselito Júnior
-  avatar: joselito-junior.png
-  avatar-alt: "Foto do palestrante Joselito Júnior"
-  company: Tampa
-  company-alt: "Local de trabalho do Joselito Júnior: Tampa, que é uma das empresas patrocinadoras do Devfest BH 2017"
-  company-image: tampa.svg
-  badges:
-    - badge: badge-info
-      name: Progressive Web Apps
-
-- name: Liliane Arazawa
-  avatar: liliane-arazawa.jpg
-  avatar-alt: "Foto da palestrante Liliane Arazawa"
-  # company: Tampa
-  # company-alt: "Liliane Arazawa é ativista na rede Women In Blockchain Brasil"
-  # company-image: women-in-blockchain-brasil.png
-  badges:
-    - badge: badge-danger
-      name: Blockchain
-    - badge: badge-info
-      name: Tendências Tecnológicas
