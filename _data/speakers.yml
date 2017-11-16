@@ -142,9 +142,9 @@
     - badge: badge-success
       name: CSS
 
-- name: Liliane Arazawa
+- name: Liliane Tie
   avatar: liliane-arazawa.jpg
-  avatar-alt: "Foto da palestrante Liliane Arazawa"
+  avatar-alt: "Foto da palestrante Liliane Tie"
   badges:
     - badge: badge-danger
       name: Blockchain
