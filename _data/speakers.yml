@@ -213,3 +213,14 @@
   badges:
     - badge: badge-info
       name: User Experience
+
+- name: Carolina Bigonha
+  avatar: carolina-bigonha.jpg
+  avatar-alt: "Foto da palestrante Carolina Bigonha"
+  companies:
+    - company: Hekima
+      company-alt: "Local de trabalho da Carolina Bigonha: Hekima"
+      company-image: hekima.png
+  badges:
+    - badge: badge-warning
+      name: AI

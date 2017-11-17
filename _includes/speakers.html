@@ -21,10 +21,11 @@
                         {% if speaker.company %}
                         <img alt="{{ speaker.company-alt }}" class="talker-place" src="assets/img/talkers/empresas/{{ speaker.company-image }}" />
                         {% endif %}
-                        <br\>
-                        {% for badge in speaker.badges %}
-                        <span class="badge {{ badge.badge }}">{{ badge.name }}</span>
-                        {% endfor %}
+                        <div style="margin-top: 5px">
+                            {% for badge in speaker.badges %}
+                            <span class="badge {{ badge.badge }}">{{ badge.name }}</span>
+                            {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>
