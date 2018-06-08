@@ -20,15 +20,7 @@ body{
 	font-size: 40px;
 }
 
-.soldOut{
-	font-size: 30px;
-	color: white;
-}
 
-.soldOutSub{
-	font-size: 16px;
-	color: white;
-}
 
 .about{
 	background-color: white;
@@ -170,7 +162,7 @@ body{
 
 .patrocinadores h2{
 	font-size: 16px;
-	padding-top: 40px;
+	padding-top: 90px;
 	padding-bottom: 20px;
 	font-weight: 800;
 	color: #ccc;
@@ -191,13 +183,6 @@ body{
     filter: grayscale(100%);
 }
 
-.organizer{
-	
-	width: 100%;
-	height: auto;
-}
-
-
 
 
 .speakers{
@@ -208,7 +193,6 @@ body{
 	margin-top: 5px;
 	max-height: 40px;
 	max-width: 100px;
-	float: none;
 }
 
 .talker-info{
@@ -236,23 +220,15 @@ body{
 	padding:20px;
 }
 
-.item-organizer{
-	padding: 20px;
+.item-speaker:hover{
+	padding:30px;
+
+
+	.item-speaker-container{
+		background-color: #CBDD4E;
+	}
 }
 
-
-.organizers{
-	background-color: #00BB6A;
-	padding: 50px;
-
-}
-
-.item-organizer-container{
-	padding: 40px;
-	background-color: rgb(0, 131, 74);
-	border-radius: 20px;
-	 box-shadow: 0px 0px 2px #000;
-}
 .item-speaker-container{
 	padding: 40px;
 	background-color: #131221;
@@ -269,12 +245,12 @@ h1{
 	font-size: 30px;
 	font-weight: 800;
 	margin-bottom: 80px;
-	margin-top: 80px;
 	text-transform: uppercase;
 }
 
 .speakers h1{
 	color: white;
+	
 }
 
 .local h1{
@@ -285,9 +261,8 @@ h1{
 	color: #1A192E;
 }
 
-.dest p{
+.dest{
 	font-weight: 700;
-	font-size: 50px;
 }
 
 
@@ -397,7 +372,6 @@ footer ul li{
 }
 
 
-
 .vcenter {
     display: flex;
     align-items: center;
@@ -415,29 +389,4 @@ footer ul li{
         left: 0;
         width: 100% !important;
         height: 100% !important;
-	}
-	
-
-	/*schedule*/
-
-	.schedule{
-		background-color: white;
-		padding-top: 40px;
-		padding-bottom: 20px;
-	}
-	.s-keynote{
-		background-color: #ccc;
-	}
-
-	.s-title{
-		font-weight: 800;
-		font-size: 18px;
-		line-height: 24px;
-		text-transform: uppercase;
-
-	}
-
-	.s-speaker{
-		font-weight: 300;
-		color: #7f8c8d;
-	}
+    }
